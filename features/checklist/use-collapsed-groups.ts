@@ -59,6 +59,7 @@ export const useCollapsedGroups = () => {
   };
 
   return {
+    clearCollapsedGroups: () => saveCollapsedGroups(new Set()),
     collapsedGroups,
     toggleGroup,
   };

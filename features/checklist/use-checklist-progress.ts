@@ -58,11 +58,7 @@ export const useChecklistProgress = () => {
     saveProgress(nextItems);
   };
 
-  const clearProgress = () => {
-    if (completedItems.size === 0 || window.confirm("Clear all saved progress?")) {
-      saveProgress(new Set());
-    }
-  };
+  const clearProgress = () => saveProgress(new Set());
 
   return {
     clearProgress,

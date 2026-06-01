@@ -25,6 +25,7 @@ export const useHideCompleted = () => {
   const savedValue = useSyncExternalStore(subscribe, getSnapshot, () => DEFAULT_VALUE);
 
   return {
+    clearHideCompleted: () => saveHideCompleted(false),
     hideCompleted: savedValue === "true",
     setHideCompleted: saveHideCompleted,
   };

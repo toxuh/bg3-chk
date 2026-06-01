@@ -19,16 +19,16 @@ import { useCollapsedGroups } from "@/features/checklist/use-collapsed-groups";
 import { useHasMounted } from "@/features/checklist/use-has-mounted";
 import { useHideCompleted } from "@/features/checklist/use-hide-completed";
 
+const DEFAULT_MAP_URL = "https://gamestegy.com/bg3/maps/act-1-wilderness?mini=true&post=true";
+
 export const ChecklistApp = () => {
   const hasMounted = useHasMounted();
   const { clearProgress, completedItems, toggleItem } = useChecklistProgress();
-  const { collapsedGroups, toggleGroup } = useCollapsedGroups();
-  const { hideCompleted, setHideCompleted } = useHideCompleted();
+  const { clearCollapsedGroups, collapsedGroups, toggleGroup } = useCollapsedGroups();
+  const { clearHideCompleted, hideCompleted, setHideCompleted } = useHideCompleted();
   const [selectedItem, setSelectedItem] = useState<ChecklistItem | null>(null);
   const [query, setQuery] = useState("");
-  const [activeMapUrl, setActiveMapUrl] = useState(
-    "https://gamestegy.com/bg3/maps/act-1-wilderness?mini=true&post=true",
-  );
+  const [activeMapUrl, setActiveMapUrl] = useState(DEFAULT_MAP_URL);
   const [showMobileMap, setShowMobileMap] = useState(false);
 
   const filteredGroups = useMemo(() => {
@@ -59,6 +59,19 @@ export const ChecklistApp = () => {
     setActiveMapUrl(mapUrl);
     setShowMobileMap(true);
   };
+  const clearAllState = () => {
+    if (!window.confirm("Clear all saved checklist state?")) {
+      return;
+    }
+
+    clearProgress();
+    clearCollapsedGroups();
+    clearHideCompleted();
+    setQuery("");
+    setSelectedItem(null);
+    setActiveMapUrl(DEFAULT_MAP_URL);
+    setShowMobileMap(false);
+  };
 
   if (!hasMounted) {
     return <ChecklistLoading />;
@@ -72,7 +85,7 @@ export const ChecklistApp = () => {
         query={query}
         showIncompleteOnly={hideCompleted}
         totalCount={checklistItems.length}
-        onClearProgress={clearProgress}
+        onClearProgress={clearAllState}
         onQueryChange={setQuery}
         onShowIncompleteOnlyChange={setHideCompleted}
       />
