@@ -17,14 +17,15 @@ import type { ChecklistItem } from "@/features/checklist/types";
 import { useChecklistProgress } from "@/features/checklist/use-checklist-progress";
 import { useCollapsedGroups } from "@/features/checklist/use-collapsed-groups";
 import { useHasMounted } from "@/features/checklist/use-has-mounted";
+import { useHideCompleted } from "@/features/checklist/use-hide-completed";
 
 export const ChecklistApp = () => {
   const hasMounted = useHasMounted();
   const { clearProgress, completedItems, toggleItem } = useChecklistProgress();
   const { collapsedGroups, toggleGroup } = useCollapsedGroups();
+  const { hideCompleted, setHideCompleted } = useHideCompleted();
   const [selectedItem, setSelectedItem] = useState<ChecklistItem | null>(null);
   const [query, setQuery] = useState("");
-  const [showIncompleteOnly, setShowIncompleteOnly] = useState(false);
   const [activeMapUrl, setActiveMapUrl] = useState(
     "https://gamestegy.com/bg3/maps/act-1-wilderness?mini=true&post=true",
   );
@@ -37,7 +38,7 @@ export const ChecklistApp = () => {
       .map((group) => ({
         ...group,
         items: group.items.filter((item) => {
-          const matchesStatus = !showIncompleteOnly || !completedItems.has(item.id);
+          const matchesStatus = !hideCompleted || !completedItems.has(item.id);
           const matchesQuery =
             normalizedQuery.length === 0 ||
             `${item.name} ${item.description} ${group.path.join(" ")}`
@@ -48,7 +49,7 @@ export const ChecklistApp = () => {
         }),
       }))
       .filter((group) => group.items.length > 0);
-  }, [completedItems, query, showIncompleteOnly]);
+  }, [completedItems, hideCompleted, query]);
 
   const completedCount = completedItems.size;
   const progress = Math.round((completedCount / checklistItems.length) * 100);
@@ -69,11 +70,11 @@ export const ChecklistApp = () => {
         completedCount={completedCount}
         progress={progress}
         query={query}
-        showIncompleteOnly={showIncompleteOnly}
+        showIncompleteOnly={hideCompleted}
         totalCount={checklistItems.length}
         onClearProgress={clearProgress}
         onQueryChange={setQuery}
-        onShowIncompleteOnlyChange={setShowIncompleteOnly}
+        onShowIncompleteOnlyChange={setHideCompleted}
       />
 
       <div className="mx-auto max-w-[1480px] px-4 py-8 sm:px-6">
