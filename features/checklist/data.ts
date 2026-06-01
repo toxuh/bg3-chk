@@ -6,4 +6,5 @@ export const checklistGroups = checklistData.groups as ChecklistGroup[];
 export const checklistItems = checklistGroups.flatMap((group) => group.items);
 export const checklistItemIds = new Set(checklistItems.map((item) => item.id));
 export const checklistGroupsById = new Map(checklistGroups.map((group) => [group.id, group]));
+export const checklistGroupIds = new Set(checklistGroups.map((group) => group.id));
 export const checklistSourceUrl = checklistData.sourceUrl;

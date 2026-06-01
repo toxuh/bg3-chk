@@ -4,6 +4,7 @@ import { useCallback, useMemo, useState } from "react";
 
 import { ChecklistDetailsDialog } from "@/features/checklist/checklist-details-dialog";
 import { ChecklistGroup } from "@/features/checklist/checklist-group";
+import { ChecklistLoading } from "@/features/checklist/checklist-loading";
 import { ChecklistMapPanel, ChecklistMobileMap } from "@/features/checklist/checklist-map-panel";
 import { ChecklistToolbar } from "@/features/checklist/checklist-toolbar";
 import {
@@ -14,10 +15,13 @@ import {
 } from "@/features/checklist/data";
 import type { ChecklistItem } from "@/features/checklist/types";
 import { useChecklistProgress } from "@/features/checklist/use-checklist-progress";
+import { useCollapsedGroups } from "@/features/checklist/use-collapsed-groups";
+import { useHasMounted } from "@/features/checklist/use-has-mounted";
 
 export const ChecklistApp = () => {
+  const hasMounted = useHasMounted();
   const { clearProgress, completedItems, toggleItem } = useChecklistProgress();
-  const [collapsedGroups, setCollapsedGroups] = useState<Set<string>>(new Set());
+  const { collapsedGroups, toggleGroup } = useCollapsedGroups();
   const [selectedItem, setSelectedItem] = useState<ChecklistItem | null>(null);
   const [query, setQuery] = useState("");
   const [showIncompleteOnly, setShowIncompleteOnly] = useState(false);
@@ -49,25 +53,15 @@ export const ChecklistApp = () => {
   const completedCount = completedItems.size;
   const progress = Math.round((completedCount / checklistItems.length) * 100);
 
-  const toggleGroup = (groupId: string) => {
-    setCollapsedGroups((currentGroups) => {
-      const nextGroups = new Set(currentGroups);
-
-      if (nextGroups.has(groupId)) {
-        nextGroups.delete(groupId);
-      } else {
-        nextGroups.add(groupId);
-      }
-
-      return nextGroups;
-    });
-  };
-
   const closeDetails = useCallback(() => setSelectedItem(null), []);
   const selectMap = (mapUrl: string) => {
     setActiveMapUrl(mapUrl);
     setShowMobileMap(true);
   };
+
+  if (!hasMounted) {
+    return <ChecklistLoading />;
+  }
 
   return (
     <main className="min-h-screen bg-stone-950 text-stone-100">

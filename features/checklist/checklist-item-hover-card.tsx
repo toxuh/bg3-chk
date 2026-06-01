@@ -20,7 +20,7 @@ export const ChecklistItemHoverCard = ({ children, item }: Readonly<Props>) => {
     <HoverCard openDelay={180} closeDelay={80}>
       <HoverCardTrigger asChild>{children}</HoverCardTrigger>
       <HoverCardContent
-        side="right"
+        side="top"
         align="start"
         className="w-80 border-stone-700 bg-stone-900 p-0 text-stone-100 shadow-2xl"
       >
