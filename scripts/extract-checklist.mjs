@@ -1,7 +1,8 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 
-const SOURCE_URL = "https://gamestegy.com/post/bg3/1633/act-1-checklist";
+const SOURCE_URL =
+  process.argv[4] ?? "https://gamestegy.com/post/bg3/1633/act-1-checklist";
 const inputPath = resolve(process.argv[2] ?? "/tmp/bg3-act1.html");
 const outputPath = resolve(process.argv[3] ?? "locales/en/checklist-data.json");
 const html = readFileSync(inputPath, "utf8");
@@ -62,6 +63,7 @@ if (!tokens) {
 
 const headingPath = [];
 const groups = [];
+const itemIdCounts = new Map();
 
 for (const token of tokens) {
   const headingMatch = token.match(/^<h([234])\b[^>]*>([\s\S]*?)<\/h\1>$/i);
@@ -84,12 +86,15 @@ for (const token of tokens) {
       const cells = [...row[1].matchAll(/<t[dh]\b[^>]*>([\s\S]*?)<\/t[dh]>/gi)].map(
         (cell) => cell[1],
       );
-      const id = attribute(row[1], "data-checklist-item-found-id");
+      const sourceId = attribute(row[1], "data-checklist-item-found-id");
 
-      if (!id || cells.length < 3) {
+      if (!sourceId || cells.length < 3) {
         return null;
       }
 
+      const idCount = (itemIdCounts.get(sourceId) ?? 0) + 1;
+      const id = idCount === 1 ? sourceId : `${sourceId}-${idCount}`;
+      itemIdCounts.set(sourceId, idCount);
       const nameCell = cells[1];
       const infoCell = cells[2];
       const locationCell = cells[3] ?? "";

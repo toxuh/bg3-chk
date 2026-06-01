@@ -1,17 +1,22 @@
 {
   "Metadata": {
-    "title": "BG3 Act 1 Checklist",
-    "description": "A personal Baldur's Gate 3 Act 1 playthrough tracker."
+    "title": "BG3 Checklist",
+    "description": "A personal Baldur's Gate 3 Act 1, Act 2, and Act 3 playthrough tracker."
   },
   "Checklist": {
-    "clearSavedStateConfirm": "Clear all saved checklist state?",
     "noMatchingEntries": "No checklist entries match the current filters.",
-    "footer": "Checklist content extracted from <source>Gamestegy's Act 1 checklist</source>. Progress stays in this browser."
+    "footer": "Checklist content extracted from <source>Gamestegy's Act {act} checklist</source>. Progress stays in this browser."
+  },
+  "ClearProgress": {
+    "title": "Clear Act {act} progress?",
+    "description": "This removes completed items, collapsed sections, and the hide-completed preference for this act from this browser.",
+    "cancel": "Keep progress",
+    "confirm": "Clear progress"
   },
   "Toolbar": {
     "eyebrow": "Personal playthrough tracker",
     "title": "Baldur's Gate 3",
-    "subtitle": "Act 1 complete checklist",
+    "subtitle": "Act {act} complete checklist",
     "clearProgress": "Clear progress",
     "searchLabel": "Search checklist",
     "searchPlaceholder": "Search items, quests, locations...",
@@ -19,14 +24,15 @@
   },
   "Navigation": {
     "ariaLabel": "Checklist acts",
-    "plannedTitle": "Checklist will be added later",
     "act1": "Act 1",
     "act2": "Act 2",
     "act3": "Act 3"
   },
   "Loading": {
     "title": "Loading your checklist",
-    "description": "Restoring progress and section state..."
+    "description": "Restoring progress and section state...",
+    "switchingTitle": "Loading checklist",
+    "switchingDescription": "Preparing quests, items, and locations..."
   },
   "Details": {
     "eyebrow": "Checklist details",

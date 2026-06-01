@@ -1,25 +1,22 @@
 import { useMemo, useSyncExternalStore } from "react";
 
-import { checklistGroupIds } from "@/features/checklist/data";
+import type { ChecklistAct } from "@/features/checklist/types";
 
-const STORAGE_KEY = "bg3-act-1-checklist-collapsed-groups";
 const STORAGE_EVENT = "bg3-checklist-collapsed-groups-changed";
 const EMPTY_GROUPS = "[]";
 
-const getSnapshot = () => localStorage.getItem(STORAGE_KEY) ?? EMPTY_GROUPS;
-
-const parseCollapsedGroups = (savedGroups: string) => {
+const parseCollapsedGroups = (savedGroups: string, groupIds: ReadonlySet<string>) => {
   try {
-    const groupIds = JSON.parse(savedGroups);
+    const savedGroupIds = JSON.parse(savedGroups);
 
-    if (!Array.isArray(groupIds)) {
+    if (!Array.isArray(savedGroupIds)) {
       return new Set<string>();
     }
 
     return new Set(
-      groupIds.filter(
+      savedGroupIds.filter(
         (groupId): groupId is string =>
-          typeof groupId === "string" && checklistGroupIds.has(groupId),
+          typeof groupId === "string" && groupIds.has(groupId),
       ),
     );
   } catch {
@@ -37,14 +34,22 @@ const subscribe = (onStoreChange: () => void) => {
   };
 };
 
-const saveCollapsedGroups = (collapsedGroups: Set<string>) => {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify([...collapsedGroups]));
+const saveCollapsedGroups = (storageKey: string, collapsedGroups: Set<string>) => {
+  localStorage.setItem(storageKey, JSON.stringify([...collapsedGroups]));
   window.dispatchEvent(new Event(STORAGE_EVENT));
 };
 
-export const useCollapsedGroups = () => {
-  const savedGroups = useSyncExternalStore(subscribe, getSnapshot, () => EMPTY_GROUPS);
-  const collapsedGroups = useMemo(() => parseCollapsedGroups(savedGroups), [savedGroups]);
+export const useCollapsedGroups = (act: ChecklistAct, groupIds: ReadonlySet<string>) => {
+  const storageKey = `bg3-${act}-checklist-collapsed-groups`;
+  const savedGroups = useSyncExternalStore(
+    subscribe,
+    () => localStorage.getItem(storageKey) ?? EMPTY_GROUPS,
+    () => EMPTY_GROUPS,
+  );
+  const collapsedGroups = useMemo(
+    () => parseCollapsedGroups(savedGroups, groupIds),
+    [groupIds, savedGroups],
+  );
 
   const toggleGroup = (groupId: string) => {
     const nextGroups = new Set(collapsedGroups);
@@ -55,11 +60,11 @@ export const useCollapsedGroups = () => {
       nextGroups.add(groupId);
     }
 
-    saveCollapsedGroups(nextGroups);
+    saveCollapsedGroups(storageKey, nextGroups);
   };
 
   return {
-    clearCollapsedGroups: () => saveCollapsedGroups(new Set()),
+    clearCollapsedGroups: () => saveCollapsedGroups(storageKey, new Set()),
     collapsedGroups,
     toggleGroup,
   };

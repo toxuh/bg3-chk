@@ -1,0 +1,3774 @@
+{
+  "sourceUrl": "https://gamestegy.com/post/bg3/1639/act-2-checklist",
+  "extractedAt": "2026-06-01T12:43:44.372Z",
+  "groups": [
+    {
+      "id": "group-1",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Ruined Battlefield"
+      ],
+      "title": "Ruined Battlefield",
+      "items": [
+        {
+          "id": "acquire-moonlantern-ruined-battlefield-marked-gpi",
+          "name": "Moonlantern",
+          "description": "You will need to obtain a Moonlantern if you want to freely explore the Shadow-Cursed Lands (it is possible to explore without it but it is harder). There are a few ways to do that:\n\n• Go to the Last Light Inn and complete the Harpers plan.\n\n• If you have the Spider's Lyre . Go to the Followers of the Absolute Meetup Point . Play the lyre and Kar'niss will appear. If you want to get the Moonlantern at some point you will have to kill Kar'niss .\n\n• You can obtain a Moonlantern in Balthazar's Hidden Room .",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_QUEST_SCL_Moonlantern.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1837/moonlantern",
+          "mapUrl": null,
+          "tooltip": {
+            "rarity": "Undefined",
+            "damage": "1d4 Bludgeoning",
+            "lore": "Each framed facet of the lantern glass is pierced by lances and long tendrils of eerily beautiful moonlight.",
+            "stats": [
+              "Clubs",
+              "Versatile",
+              "Light"
+            ],
+            "weight": "0.9",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_QUEST_SCL_Moonlantern.png"
+          }
+        },
+        {
+          "id": "defeat-karniss-ruined-battlefield-marked-4oa",
+          "name": "Defeat Kar'niss",
+          "description": "There will be one opportunity to defeat Kar'niss with Harpers during their ambush.\n\nYou can either go to Last Light Inn and assist them or escort Kar'niss and betray him.\n\nYou can loot Moonlantern and Cruel Sting from him.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2229&post=true&mini=true"
+        },
+        {
+          "id": "cruel-sting-marked-da1",
+          "name": "Cruel Sting",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Longsword_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1943/cruel-sting",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1907&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d8+1  Slashing",
+            "lore": "The trauma of becoming a drider is quickly set aside with a cold arachnid dispassion. This sword follows that disturbing trend - a replenishing poison gland is built within, deployed only against trapped opponents.",
+            "stats": [
+              "Longswords",
+              "Versatile"
+            ],
+            "weight": "1.35",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Longsword_A_1.png"
+          }
+        },
+        {
+          "id": "play-hide-and-seek-ruined-battlefield-marked-kgd",
+          "name": "Play Hide and Seek",
+          "description": "Play a game of Hide and Seek with Oliver. If you win the game without resorting to violence you will receive Ring of Shadows as a reward.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2546&post=true&mini=true"
+        },
+        {
+          "id": "ring-of-shadows-marked-z24",
+          "name": "Ring of Shadows",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_I_Gold_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2751/ring-of-shadows",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1906&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "For some, darkness is wielded like a black opal stud embedded in a signet ring - fashioned to a sharp and unforgiving point.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Ring_I_Gold_A_1.png"
+          }
+        },
+        {
+          "id": "ring-of-mental-inhibition-marked-qk2",
+          "name": "Ring of Mental Inhibition",
+          "description": "Excellent ring to stack debuffs for casters.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_B_Silver_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2525/ring-of-mental-inhibition",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1905&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "The patterns in the ring's swirling metal make your head spin whenever you look at them for too long.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Ring_B_Silver_A_1.png"
+          }
+        },
+        {
+          "id": "defeat-shadows-ruined-battlefield-north-marked-bpc",
+          "name": "Defeat the Shadows (Lv. 5)",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2236&post=true&mini=true"
+        },
+        {
+          "id": "defeat-ravens-ruined-battlefield-marked-ccr",
+          "name": "Defeat the Shadow-Cursed Ravens (Lv. 1)",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2234&post=true&mini=true"
+        },
+        {
+          "id": "defeat-shadow-cursed-blights-marked-xro",
+          "name": "Defeat the Shadow-Cursed Blights (LV. 3-6)",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2235&post=true&mini=true"
+        },
+        {
+          "id": "punish-the-wicked-ruined-battlefield-marked-g0l",
+          "name": "Punish the Wicked",
+          "description": "If you successfully complete the quest you will receive Raven Gloves as a reward.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2581&post=true&mini=true"
+        },
+        {
+          "id": "raven-gloves-marked-0nt",
+          "name": "Raven Gloves",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Gloves_Leather_E.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2758/raven-gloves",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1898&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Dark and suitably moody, these gloves are perfect for wearing while thinking about poetry.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Gloves_Leather_E.png"
+          }
+        },
+        {
+          "id": "family-ring-marked-d2b",
+          "name": "Family Ring",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_A_Gem_A_Gold_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2750/family-ring",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1897&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "The ring's simplicity is a deceit. Its gold core is woven with iron-hard feathers from the wings of great black corvid birds, envoys of the Raven Queen.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Ring_A_Gem_A_Gold_1.png"
+          }
+        },
+        {
+          "id": "defeat-the-shadow-cursed-blight-hard-ruined-battlefield-marked-2zi",
+          "name": "Defeat the Shadow-Cursed Blights (Lv. 3-9)",
+          "description": "You will be able to loot Ironwood Club and Ring of Self Immolation .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2232&post=true&mini=true"
+        },
+        {
+          "id": "ironwood-club-marked-vii",
+          "name": "Ironwood Club",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_Wood_Woad_Club.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1860/ironwood-club",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1899&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": "1d4+1  Bludgeoning",
+            "lore": "Fashioned from the hard, unforgiving trunk of an oak, this club still retains the perfume of the forest.",
+            "stats": [
+              "Clubs",
+              "Light"
+            ],
+            "weight": "0.9",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_Wood_Woad_Club.png"
+          }
+        },
+        {
+          "id": "ring-of-self-immolation-marked-tx6",
+          "name": "Ring of Self Immolation",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_C_Silver_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2474/ring-of-self-immolation",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1900&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "Every one of the three gems in this ring is searing hot - enough to burn yourself with the slightest brush of your fingers.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Ring_C_Silver_A_1.png"
+          }
+        },
+        {
+          "id": "defeat-shadow-mastiff-marked-vij",
+          "name": "Defeat the Shadow Mastiff",
+          "description": "You will need to destroy all the arcane torches nearby. You can loot the Shadow-Cloaked Ring from one of the mastiff.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2231&post=true&mini=true"
+        },
+        {
+          "id": "shadow-cloaked-ring-marked-lnh",
+          "name": "Shadow-Cloaked Ring",
+          "description": "Excellent ring for additional damage rider that is very effective in Act 2, due to obscured areas.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_B_Gem_B_Gold_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2555/shadow-cloaked-ring",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1903&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "Even in the brightest light, this ring never gleams, as if perpetually wrapped in shadow, hungry for the dark.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Ring_B_Gem_B_Gold_1.png"
+          }
+        },
+        {
+          "id": "ruined-battlefield-defeat-ambush-marked-d1m",
+          "name": "Defeat Meazels (Lv. 6)",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2230&post=true&mini=true"
+        },
+        {
+          "id": "luminous-gloves-marked-3wb",
+          "name": "Luminous Gloves",
+          "description": "Great gloves that can be used on some builds that concentrate on stacking Radiationg Orbs like clerics.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Gloves_Metal_D.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2467/luminous-gloves",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1896&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "The pads of each fingertip shine from the fabric with a garish glow.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Gloves_Metal_D.png"
+          }
+        },
+        {
+          "id": "hammergrim-mist-amulet-marked-j8l",
+          "name": "Hammergrim Mist Amulet",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Amulet_Necklace_A_Gold_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2493/hammergrim-mist-amulet",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1904&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "One of the relics of Deep Duerra's rebellious children. Drugging the Keykeeper of Duerra's vaults, the children crept in under cover of night and plundered their mother's treasure - searching desperately for anything that would aid in their flight.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Amulet_Necklace_A_Gold_A_1.png"
+          }
+        },
+        {
+          "id": "ring-of-twilight-marked-w7q",
+          "name": "Ring of Twilight",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_I_Silver_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2543/ring-of-twilight",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=4713&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Dark smoke swirls in the ring's onyx, protecting something within.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Ring_I_Silver_A_1.png"
+          }
+        },
+        {
+          "id": "ruined-battlefield-absolutists-marked-w1c",
+          "name": "Deal With the Absolutists",
+          "description": "You can loot Thermoarcanic Gloves from Kansif.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2227&post=true&mini=true"
+        },
+        {
+          "id": "thermoarcanic-gloves-marked-qnr",
+          "name": "Thermoarcanic Gloves",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Gloves_Leather_G.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2473/thermoarcanic-gloves",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=4714&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "Ash dusts the gloves' fingers, darkening their seams.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Gloves_Leather_G.png"
+          }
+        },
+        {
+          "id": "defeat-vine-blights-marked-dix",
+          "name": "Defeat the Vine Blights (Lv. 3-6)",
+          "description": "",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2226&post=true&mini=true"
+        },
+        {
+          "id": "frost-prince-marked-il2",
+          "name": "Frost Prince",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Amulet_Necklace_B_Silver_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2449/frost-prince",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1902&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "Each sapphire feels like a tiny shard of sharpened ice.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Amulet_Necklace_B_Silver_A_1.png"
+          }
+        },
+        {
+          "id": "shadows-rolan-ruined-battlefield-marked-3ib",
+          "name": "Help Rolan defeat the Shadows (Lv. 7)",
+          "description": "Only available after speaking with Isobel .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2228&post=true&mini=true"
+        },
+        {
+          "id": "gloomstrand-shield-marked-30o",
+          "name": "Gloomstrand Shield",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Shield_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2544/gloomstrand-shield",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1901&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "Supposedly fashioned around a lock of hair stolen from the head of the Prince of Gloomwrought, shields of this ilk gladly welcome the dark.",
+            "stats": [],
+            "weight": "2.7",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Shield_A_1.png"
+          }
+        },
+        {
+          "id": "night-orchid-for-shadowheart-marked-f3d",
+          "name": "Night Orchid",
+          "description": "Give the orchid to Shadowheart to get an additional Nightsong Point.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ALCH_Ingredient_Herb_NightOrchid.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/5915/night-orchid",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2667&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Undefined",
+            "damage": null,
+            "lore": null,
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ALCH_Ingredient_Herb_NightOrchid.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-2",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Last Light Inn"
+      ],
+      "title": "Last Light Inn",
+      "items": [
+        {
+          "id": "penumbral-armour-marked-4q4",
+          "name": "Penumbral Armour",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_StuddedLeather_Drow_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2498/penumbral-armour",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1910&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Light Armour",
+            "stats": [],
+            "weight": "5.85",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_StuddedLeather_Drow_Magic.png"
+          }
+        },
+        {
+          "id": "item-x726kh",
+          "name": "Help Harpers With Their Plan",
+          "description": "Help Harpers acquire the Moonlantern available only if you have not summoned Kar'niss .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=4715&post=true&mini=true"
+        },
+        {
+          "id": "infernal-iron-damon-last-light-inn-marked-0v0",
+          "name": "Bring Dammon Infernal Iron",
+          "description": "To gain additional upgrades for Karlach bring Infernal Iron . Additionally you can provide Infernal Alloy or leftover Infernal Iron for him to craft unique armor ( Flawed Helldusk Armour , Flawed Helldusk Gloves and Flawed Helldusk Helmet )",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2080&post=true&mini=true"
+        },
+        {
+          "id": "speak-with-strange-ox-last-light-inn-marked-0lb",
+          "name": "Speak With the Strange Ox",
+          "description": "You can speak with it by using Speak with Animals spell.​ If you decide to kill it you will receive Shapeshifter's Boon Ring and Hat of Fire Acuity as loot.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2556&post=true&mini=true"
+        },
+        {
+          "id": "shapeshifters-boon-ring-marked-70z",
+          "name": "Shapeshifter's Boon Ring",
+          "description": "Can be obtained if not gotten in Act 1.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_B_Gold_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2656/shapeshifters-boon-ring",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1915&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "'I'm a talented shapeshifter, too. I can shapeshift a thin body into a fat body. All I need is a steady supply of mince pies and mulled wine.' - Overheard in a tavern in Daggerford",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Ring_B_Gold_A_1.png"
+          }
+        },
+        {
+          "id": "hat-of-fire-acuity-marked-yin",
+          "name": "Hat of Fire Acuity",
+          "description": "One of the best hats for casters using Scorching Ray ​ spells.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_ARM_Hat_Wizard_D_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2476/hat-of-fire-acuity",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1916&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "It is said some wizard hats grant the power to keep your head cool - both literally and figuratively.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_ARM_Hat_Wizard_D_Magic.png"
+          }
+        },
+        {
+          "id": "shield-of-scorching-reprisal-marked-u1e",
+          "name": "Shield of Scorching Reprisal",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Shield_FlamingFist.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2531/shield-of-scorching-reprisal",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1908&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Local rumour claims a devil's tear gives these city militia shields their fire - much to the chagrin of the barracks blacksmith.",
+            "stats": [],
+            "weight": "2.7",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Shield_FlamingFist.png"
+          }
+        },
+        {
+          "id": "rippling-force-mail-marked-0to",
+          "name": "Rippling Force Mail",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_ZOC_ForceConduit_ChainMail_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2471/rippling-force-mail",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1912&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Dents, notches, and nicks add character to each ring of this mail - yet each blemish also speaks to those who tasted magical vengeance on the armour's behalf.",
+            "stats": [],
+            "weight": "18",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_ZOC_ForceConduit_ChainMail_Magic.png"
+          }
+        },
+        {
+          "id": "wake-up-art-cullagh-last-light-inn-marked-gsx",
+          "name": "Wake Up Art Cullagh",
+          "description": "",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2588&post=true&mini=true"
+        },
+        {
+          "id": "snowburst-ring-marked-oac",
+          "name": "Snowburst Ring",
+          "description": "Under a Loose Plank .",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_A_Gem_A_Gold_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2450/snowburst-ring",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1909&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "A series of names have been scratched out, one after the other, on the inside of the ring. The last word, untouched, is not a name. It simply reads: Mine.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Ring_A_Gem_A_Gold_1.png"
+          }
+        },
+        {
+          "id": "rescue-the-tieflings-last-light-inn-marked-w78",
+          "name": "Start the Quest Rescue the Tieflings",
+          "description": "Available only if you sided with tieflings in Act 1. You will receive Potent Robe as a reward (except if you are Dark Urge).",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2582&post=true&mini=true"
+        },
+        {
+          "id": "potent-robe-marked-qgr",
+          "name": "Potent Robe",
+          "description": "One of the most important pieces of equipment for cantrip-heavy users or casters.\nYou will not be able to obtain it as Dark Urge",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_CharismaCaster_Robe_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2741/potent-robe",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1911&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Veryrare",
+            "damage": null,
+            "lore": "This robe is a difficult look to pull off unless one is blessed with an otherworldly charisma.",
+            "stats": [],
+            "weight": "1.8",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_CharismaCaster_Robe_Magic.png"
+          }
+        },
+        {
+          "id": "get-the-tower-shaped-key-marked-pvq",
+          "name": "Tower-Shaped Key",
+          "description": "Unlocks a Hidden Lock in Masons Guild Basement.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2609&post=true&mini=true"
+        },
+        {
+          "id": "explore-last-light-inn-marked-vqn",
+          "name": "Explore and Trade at the Last Light Inn",
+          "description": "Talk, explore and trade, just keep in mind you will have a major choice when talking with Isobel and might loose access to the inn.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=4715&post=true&mini=true"
+        },
+        {
+          "id": "speak-with-isoble-last-light-inn-marked-24n",
+          "name": "Speak With Isobel",
+          "description": "",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2555&post=true&mini=true"
+        },
+        {
+          "id": "fist-marcus-tadpole-last-light-inn-marked-63g",
+          "name": "Fist Marcus' Tadpole",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_Druid_Autopsy_Set_Tadpole.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/5906/mind-flayer-parasite-specimen",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2564&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Hanging suspended in murky slime, the living tadpole looks like some hideous cousin to the slug, only gorged and slick with remnants of brain fluid.",
+            "stats": [],
+            "weight": "0.2",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_Druid_Autopsy_Set_Tadpole.png"
+          }
+        },
+        {
+          "id": "moon-devotion-robe-marked-s5b",
+          "name": "Moon Devotion Robe",
+          "description": "Requires killing Isobel",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_ARM_Robe_Selunite.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2736/moon-devotion-robe",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1913&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Veryrare",
+            "damage": null,
+            "lore": "A memory from her childhood: a warm bed. Through the cracked window, she could see the moonlight cupping the plums in the tree as if in silver hands. The name of the goddess Selûne came to her, and never left.",
+            "stats": [],
+            "weight": "1.8",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_ARM_Robe_Selunite.png"
+          }
+        },
+        {
+          "id": "jhannyls-gloves-marked-qo3",
+          "name": "Jhannyl's Gloves",
+          "description": "Requires killing Isobel",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Gloves_Leather_3.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2541/jhannyls-gloves",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1914&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Divine runes accentuate the finger pads. While not a religious sect, the Harpers do not demand the occlusion of religion in their members.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Gloves_Leather_3.png"
+          }
+        },
+        {
+          "id": "sylvan-scimitar-marked-7dk",
+          "name": "Sylvan Scimitar",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Scimitar_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1567/sylvan-scimitar",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1917&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": "1d6+1  Slashing",
+            "lore": "Everything moves strangely in the Feywild, from rivers to behaviours. It's a mercurial place, where the magical and physical can pass permeably through one another.",
+            "stats": [
+              "Scimitars",
+              "Light",
+              "Finesse"
+            ],
+            "weight": "1.35",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Scimitar_A_1.png"
+          }
+        },
+        {
+          "id": "shifting-corpus-ring-marked-u8f",
+          "name": "Shifting Corpus Ring",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_A_Simple_Gold_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2532/shifting-corpus-ring",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1918&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "A shiny, deceptively simple band, designed to look like those worn by battlefield scouts and city pickpockets alike.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Ring_A_Simple_Gold_1.png"
+          }
+        },
+        {
+          "id": "find-rolan-last-light-inn-marked-0cm",
+          "name": "Find Rolan",
+          "description": "Important: if you get close ebough to Rolan but you will fast travel or sleep he will die.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2228&post=true&mini=true"
+        },
+        {
+          "id": "lift-the-shadow-curse-last-light-inn-marked-dzw",
+          "name": "Lift the Shadow-Curse",
+          "description": "Only available if Defeat the Goblins was completed and Halsin agrees to accompany the party to the Moonrise Towers .\n\nYou will need to speak with Halsin at your camp to start the quest.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": null
+        }
+      ]
+    },
+    {
+      "id": "group-3",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Last Light Inn",
+        "Dammon"
+      ],
+      "title": "Dammon",
+      "items": [
+        {
+          "id": "charge-bound-warhammer-marked-wz6",
+          "name": "Charge-Bound Warhammer",
+          "description": "Excellent weapon, that has high damage and works well on Pact of the Blade warlocks .",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_WarHammer_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1958/charge-bound-warhammer",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1919&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d8+1  Bludgeoning",
+            "lore": "Energy crackles in weird and wonderful patterns across your hand as you wield this bound weapon, as if your very veins were marbled like a cloud of blue-white lightning.",
+            "stats": [
+              "Warhammers",
+              "Versatile"
+            ],
+            "weight": "2.7",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_WarHammer_A_1.png"
+          }
+        },
+        {
+          "id": "darkfire-shortbow-marked-hyx",
+          "name": "Darkfire Shortbow",
+          "description": "Excellent bow if you do not have a source for Haste ​ in your group.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Shortbow_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1915/darkfire-shortbow",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1920&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d6+2  Piercing",
+            "lore": "This length of yew was polished in a lacquer made from the mingled, cooled, and refined breath of a gold and silver dragon.",
+            "stats": [
+              "Shortbows",
+              "18m",
+              "Two-Handed"
+            ],
+            "weight": "0.9",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Shortbow_A_1.png"
+          }
+        },
+        {
+          "id": "harmonium-halberd-marked-63u",
+          "name": "Harmonium Halberd",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Halberd_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1963/harmonium-halberd",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1921&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d10+1  Slashing",
+            "lore": "The platinum inlays of this halberd hum an otherworldly harmony in the key of C, heightening the wielder's vigour but diminishing their mental faculties. The sound it makes is pining, as if far from its rightful home.",
+            "stats": [
+              "Halberds",
+              "Two-Handed",
+              "Extra Reach"
+            ],
+            "weight": "2.7",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Halberd_A_1.png"
+          }
+        },
+        {
+          "id": "sword-of-clutching-umbra-marked-j65",
+          "name": "Sword of Clutching Umbra",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Shortsword_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1901/sword-of-clutching-umbra",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1922&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d6+1  Piercing",
+            "lore": "Fingers of shadow seem to beckon from the dark edge of the blade.",
+            "stats": [
+              "Shortswords",
+              "Light",
+              "Finesse"
+            ],
+            "weight": "0.9",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Shortsword_A_1.png"
+          }
+        },
+        {
+          "id": "sword-of-life-stealing-marked-3ox",
+          "name": "Sword of Life Stealing",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Shortsword_A_2.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1948/sword-of-life-stealing",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1923&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Veryrare",
+            "damage": "1d6+2  Piercing",
+            "lore": "Folded into the steel of this menacing weapon is an alloy of enchanted metal. It waits like a leech in thick swamp water, awaiting a victim to taste, awaiting a chance to restore your heartiness and inflict suffering on your foes.",
+            "stats": [
+              "Shortswords",
+              "Light",
+              "Finesse"
+            ],
+            "weight": "0.9",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Shortsword_A_2.png"
+          }
+        },
+        {
+          "id": "swordmaster-gloves-marked-vs3",
+          "name": "Swordmaster Gloves",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Gloves_Leather_G.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2667/swordmaster-gloves",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1924&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "The famous drow with his heart of gold, Drizzt Do'Urden, is not the pioneer of the 'twin sword style' of fighting, though he was among the best practitioners.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Gloves_Leather_G.png"
+          }
+        },
+        {
+          "id": "thermodynamo-axe-marked-hdu",
+          "name": "Thermodynamo Axe",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Battleaxe_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1921/thermodynamo-axe",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1925&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d8+1  Slashing",
+            "lore": "Designed by gnomish innovation, this weapon has a dynamic core that swivels and tinkles into life whenever the axe is swung at a foe.",
+            "stats": [
+              "Battleaxes",
+              "Versatile"
+            ],
+            "weight": "1.8",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Battleaxe_A_1.png"
+          }
+        },
+        {
+          "id": "thorn-blade-marked-avb",
+          "name": "Thorn Blade",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Scimitar_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1568/thorn-blade",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1926&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d6+1  Slashing",
+            "lore": "This blade is sharp and slender as a serpent's fang - and just as likely to inflict a hideous sting.",
+            "stats": [
+              "Scimitars",
+              "Light",
+              "Finesse"
+            ],
+            "weight": "1.35",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Scimitar_A_1.png"
+          }
+        },
+        {
+          "id": "flawed-helldusk-gloves-marked-ag7",
+          "name": "Flawed Helldusk Gloves",
+          "description": "Requires Infernal Iron (per item) or Infernal Alloy to be crafted.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_QUEST_HAV_InfernalReward_003.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2942/flawed-helldusk-gloves",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1927&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": null,
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/item-icons/Item_QUEST_HAV_InfernalReward_003.png"
+          }
+        },
+        {
+          "id": "flawed-helldusk-helmet-marked-yz4",
+          "name": "Flawed Helldusk Helmet",
+          "description": "",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Helmet_Metal_D_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2940/flawed-helldusk-helmet",
+          "mapUrl": null,
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": null,
+            "stats": [],
+            "weight": "1",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/item-icons/Item_ARM_Helmet_Metal_D_Magic.png"
+          }
+        },
+        {
+          "id": "flawed-helldusk-armour-marked-vxi",
+          "name": "Flawed Helldusk Armour",
+          "description": "",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_Lesser_Infernal_Plate_Armor_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2941/flawed-helldusk-armour",
+          "mapUrl": null,
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": null,
+            "stats": [],
+            "weight": "20",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/item-icons/Generated_MAG_Lesser_Infernal_Plate_Armor_Magic.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-4",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Last Light Inn",
+        "Quartermaster Talli"
+      ],
+      "title": "Quartermaster Talli",
+      "items": [
+        {
+          "id": "shield-of-devotion-marked-8dr",
+          "name": "Shield of Devotion",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Shield_E_2.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2686/shield-of-devotion",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1930&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Veryrare",
+            "damage": null,
+            "lore": "Any tales about the Paladins of Velen are so ancient as to be almost certainly hearsay. Irrefutable, however, is the powerful blessing they left on this ancient shield, which inspires heart-fluttering bravery to this day.",
+            "stats": [],
+            "weight": "2.7",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Shield_E_2.png"
+          }
+        },
+        {
+          "id": "incandescent-staff-marked-yiu",
+          "name": "Incandescent Staff",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Quarterstaff_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1868/incandescent-staff",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1931&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Veryrare",
+            "damage": "1d6 Bludgeoning",
+            "lore": "Etchings course red-hot through the length of this staff, the script of primordial fire writ in flame.",
+            "stats": [
+              "Quarterstaffs",
+              "Versatile"
+            ],
+            "weight": "1.8",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Quarterstaff_A_1.png"
+          }
+        },
+        {
+          "id": "barkskin-armour-marked-nr6",
+          "name": "Barkskin Armour",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Hide_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2704/barkskin-armour",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1932&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "The bark motifs in this armour are like the boles of oak trees in a wood where the acorns slept long, and grew proud.",
+            "stats": [],
+            "weight": "5.4",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Hide_1.png"
+          }
+        },
+        {
+          "id": "shadeclinger-armour-marked-5w2",
+          "name": "Shadeclinger Armour",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Leather_4.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2540/shadeclinger-armour",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1933&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Glutted with lone wolves and well-meaning scallywags, the Harpers are not averse to shadows - quite the contrary. For many such individuals, being swallowed in the dark throat of the night is the only method they know, or care to know.",
+            "stats": [],
+            "weight": "4.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Leather_4.png"
+          }
+        },
+        {
+          "id": "hat-of-uninhibited-kushigo-marked-d0v",
+          "name": "Hat of Uninhibited Kushigo",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_Monk_Magic_Hat_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2551/hat-of-uninhibited-kushigo",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1934&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "0.5",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_Monk_Magic_Hat_Magic.png"
+          }
+        },
+        {
+          "id": "obsidian-laced-robe-marked-kcr",
+          "name": "Obsidian Laced Robe",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_Heat_Fire_Robe_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2594/obsidian-laced-robe",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1935&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "The inside of this robe is dark and faceted like volcanic glass, yet the material is light and soft. Against the skin, it also produces a heat like a toasty fire on a day of snow.",
+            "stats": [],
+            "weight": "1.8",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_Heat_Fire_Robe_Magic.png"
+          }
+        },
+        {
+          "id": "amulet-of-the-harpers-marked-2sw",
+          "name": "Amulet of the Harpers",
+          "description": "Excellent defensive amulet for almost any build.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Amulet_Necklace_F_Silver_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2534/amulet-of-the-harpers",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1936&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Nobility can be found in suffering the slings and arrows of outrageous fortune. So can dying. Best to be on guard.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Amulet_Necklace_F_Silver_A_1.png"
+          }
+        },
+        {
+          "id": "cindersnap-gloves-marked-dpo",
+          "name": "Cindersnap Gloves",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Gloves_Leather_E.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2533/cindersnap-gloves",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1937&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "'What moves faster, a loosed crossbow bolt or a windblown cinder? Let's find out.' - Overheard during a Flaming Fist raid in Baldur's Gate.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Gloves_Leather_E.png"
+          }
+        },
+        {
+          "id": "gloves-of-the-balanced-hands-marked-qc2",
+          "name": "Gloves of the Balanced Hands",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Gloves_Leather_H.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2749/gloves-of-the-balanced-hands",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1938&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Formerly worn by Doubleway Douglas Fairbanks, who was so ambidextrous his tears ran down the back of his neck.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Gloves_Leather_H.png"
+          }
+        },
+        {
+          "id": "the-mighty-cloth-marked-607",
+          "name": "The Mighty Cloth",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_ARM_Cloth_A_1_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2703/the-mighty-cloth",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1939&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "1.8",
+            "stats": [],
+            "weight": "1.8",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_ARM_Cloth_A_1_Magic.png"
+          }
+        },
+        {
+          "id": "yuan-ti-scale-mail-marked-ti6",
+          "name": "Yuan-ti Scale Mail",
+          "description": "The best medium armor in Act 2, if you have 16 or more dexterity.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_ARM_ScaleMail_2_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2682/yuan-ti-scale-mail",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1940&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "The snakefolk of Chult are not known for waste, so often forge lightweight and robust armour like this from their own shed skin.",
+            "stats": [],
+            "weight": "12",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_ARM_ScaleMail_2_Magic.png"
+          }
+        },
+        {
+          "id": "defender-greataxe-marked-m7r",
+          "name": "Defender Greataxe",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Greataxe_A_2.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1968/defender-greataxe",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1941&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d12 Slashing",
+            "lore": "The power of this axe lies in a fluctuating arcane enchantment that flows between the beard and the edge of the axe, and the wielder themselves.",
+            "stats": [
+              "Greataxes",
+              "Two-Handed"
+            ],
+            "weight": "3.15",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Greataxe_A_2.png"
+          }
+        },
+        {
+          "id": "cloak-of-protection-marked-msg",
+          "name": "Cloak of Protection",
+          "description": "One of the most versatile cloaks in the game, fitting almost any character build.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_PHB_CloakOfProtection_Cloak_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2517/cloak-of-protection",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1942&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "0.5",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_PHB_CloakOfProtection_Cloak_Magic.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-5",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Last Light Inn",
+        "Mattis"
+      ],
+      "title": "Mattis",
+      "items": [
+        {
+          "id": "evasive-shoes-marked-xg5",
+          "name": "Evasive Shoes",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Shoes_G_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2684/evasive-shoes",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1943&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Rogues in Waterdeep prefer these spring-loaded boots that make evading the city watch a breeze.",
+            "stats": [],
+            "weight": "0.55",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Shoes_G_Magic.png"
+          }
+        },
+        {
+          "id": "cloak-of-cunning-brume-marked-4sk",
+          "name": "Cloak of Cunning Brume",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_Shadow_FogOfCloudDisengage_Cloak_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2495/cloak-of-cunning-brume",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1944&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "0.5",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_Shadow_FogOfCloudDisengage_Cloak_Magic.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-6",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Last Light Inn",
+        "Barcus Wroot"
+      ],
+      "title": "Barcus Wroot",
+      "items": [
+        {
+          "id": "acrobat-shoes-marked-jr4",
+          "name": "Acrobat Shoes",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_Acrobat_Shoes_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2673/acrobat-shoes",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1945&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "These flexible shoes were once owned by Audreyne Willoughs, who, in a somewhat ironic twist of fate, ran away from the circus to join her parents back home.",
+            "stats": [],
+            "weight": "0.55",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_Acrobat_Shoes_Magic.png"
+          }
+        },
+        {
+          "id": "gloves-of-the-automaton-marked-k8x",
+          "name": "Gloves of the Automaton",
+          "description": "Excellent gloves, be sure to activate them before combat for maximum effectiveness.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Gloves_Metal_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2634/gloves-of-the-automaton",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1946&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Llena the Many-Times-Married would use these gloves to blend in with the statues in her courtyard. This would allow her to avoid her plethora of husbands. Anything for a moment's peace.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Gloves_Metal_1.png"
+          }
+        },
+        {
+          "id": "ring-of-geniality-marked-zqa",
+          "name": "Ring of Geniality",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_H_Silver_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2545/ring-of-geniality",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1947&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "Glibness is not only in the tongue, but in the body. Gesture is powerful. Think of how many words of comfort can be stored and saved, when a hug will do just as sweetly.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Ring_H_Silver_A_1.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-7",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Last Light Inn",
+        "Cellar"
+      ],
+      "title": "Cellar",
+      "items": [
+        {
+          "id": "defeat-meenlocks-last-light-inn-marked-rp6",
+          "name": "Defeat the Meenlocks (Lv. 6)",
+          "description": "You will encounter 7 Meenlocks.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2238&post=true&mini=true"
+        },
+        {
+          "id": "coruscation-ring-marked-h2a",
+          "name": "Coruscation Ring",
+          "description": "Great ring for builds that aim at stacking Radiating Orbs to weaken enemies.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_A_Simple_Gold_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2466/coruscation-ring",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1948&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "Provocative light blooms from the engraved contours of this ring.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Ring_A_Simple_Gold_1.png"
+          }
+        },
+        {
+          "id": "covert-cowl-marked-qld",
+          "name": "Covert Cowl",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Helmet_Leather_Drow.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2492/covert-cowl",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1949&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "Light Armour",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Helmet_Leather_Drow.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-8",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Last Light Inn",
+        "Reithwin Tollhouse"
+      ],
+      "title": "Reithwin Tollhouse",
+      "items": [
+        {
+          "id": "gerringothe-thorm-encounter-marked-ozu",
+          "name": "Deal With Gerringothe Thorm (Lv. 8)",
+          "description": "You can loot Tollhouse Master's Office Key and Twist of Fortune .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": null
+        },
+        {
+          "id": "twist-of-fortune-marked-zig",
+          "name": "Twist of Fortune",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Morningstar_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1566/twist-of-fortune",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1969&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d8+1  Piercing",
+            "lore": "They say rich folk are never truly happy: especially true when they're targeted with this morningstar.",
+            "stats": [
+              "Morningstars"
+            ],
+            "weight": "1.8",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Morningstar_A_1.png"
+          }
+        },
+        {
+          "id": "ironvine-shield-marked-dt0",
+          "name": "Ironvine Shield",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_Wood_Woad_Shield.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2507/ironvine-shield",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1970&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "Each whorl and groove and worm-curled twist of this shield evokes a tangle of bog-stuck trees in rain-swollen vines.",
+            "stats": [],
+            "weight": "2.7",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_Wood_Woad_Shield.png"
+          }
+        },
+        {
+          "id": "gloves-of-battlemages-power-marked-dm0",
+          "name": "Gloves of Battlemage's Power",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Gloves_Metal_I.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2457/gloves-of-battlemages-power",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1971&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Bands of blue light snap and contract when the gloved fingertips are pressed together - evidence of the arcane polarity linking them.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Gloves_Metal_I.png"
+          }
+        },
+        {
+          "id": "fireheart-marked-g5t",
+          "name": "Fireheart",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Amulet_Necklace_F_Gold_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2475/fireheart",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1972&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "The ruby's red reflections look like eerie flames dancing across your skin.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Amulet_Necklace_F_Gold_A_1.png"
+          }
+        },
+        {
+          "id": "soul-coin-reithwin-tollhouse-basement-marked-5gn",
+          "name": "Soul Coin",
+          "description": "Located inside the Reithwin Tollhouse Basement",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_QUEST_GLO_SoulCoin.png",
+          "itemUrl": null,
+          "mapUrl": null
+        }
+      ]
+    },
+    {
+      "id": "group-9",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Last Light Inn",
+        "Mason's Guild"
+      ],
+      "title": "Mason's Guild",
+      "items": [
+        {
+          "id": "infernal-iron-masons-guild-marked-m4d",
+          "name": "Infernal Iron",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_Ketheric_Infernal_Plate_C.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/5838/infernal-iron-nu8tHI",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2644&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Undefined",
+            "damage": null,
+            "lore": "This dented piece of black metal has a red shine to it, no matter the lighting. Faint screams echo through your mind whenever you touch it.",
+            "stats": [],
+            "weight": "1",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_Ketheric_Infernal_Plate_C.png"
+          }
+        },
+        {
+          "id": "gain-access-to-the-masons-guild-basement-marked-puj",
+          "name": "Gain Access to the Masons Guild Basement",
+          "description": "You will need to use the Tower-Shaped Key on the Keyholed Herald to progress further in to the basement.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2129&post=true&mini=true"
+        },
+        {
+          "id": "wrait-and-shadows-masons-guild-marked-76y",
+          "name": "Wraith and Shadows (Lv. 5-7)",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2318&post=true&mini=true"
+        },
+        {
+          "id": "helmet-of-arcane-acuity-marked-x7b",
+          "name": "Helmet of Arcane Acuity",
+          "description": "One of the best items in the game for any kind of spell sword/gish build.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Helmet_Leather_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2452/helmet-of-arcane-acuity",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1968&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "Subtle magics are woven into the helmet's leather panes - for a powerful offence is sometimes still the best defence.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Helmet_Leather_1.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-10",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Last Light Inn",
+        "Reithwin Graveyard"
+      ],
+      "title": "Reithwin Graveyard",
+      "items": [
+        {
+          "id": "find-arabellas-parents-graveyard-marked-e7h",
+          "name": "Find Arabella's Parents",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2578&post=true&mini=true"
+        },
+        {
+          "id": "boots-of-apparent-death-marked-3lq",
+          "name": "Boots of Apparent Death",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Shoes_A.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2423/boots-of-apparent-death",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1953&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Practical jokes with these boots often involve all your stuff being stolen by opportunistic cousins.",
+            "stats": [],
+            "weight": "0.55",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Shoes_A.png"
+          }
+        },
+        {
+          "id": "icebite-robe-marked-pzl",
+          "name": "Icebite Robe",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_Frost_GenerateFrostOnDamage_Robe_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2445/icebite-robe",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1952&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Delicate ferns of frost glitter in the lining of this robe.",
+            "stats": [],
+            "weight": "1.8",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_Frost_GenerateFrostOnDamage_Robe_Magic.png"
+          }
+        },
+        {
+          "id": "true-loves-caress-marked-w0g",
+          "name": "True Love's Caress",
+          "description": "Used together with True Love's Embrace .",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_B_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2422/true-loves-caress",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1954&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "The most pragmatic and courageous lover ever known was, of course, Sorcha MacTire, for whom the popular hairstyle is named, and for whom many an extremely soppy poem has been written (most of them comparing her to geography).",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Ring_B_1.png"
+          }
+        },
+        {
+          "id": "avoid-going-to-thorm-mausoleum-marked-hbs",
+          "name": "Avoid Entering the Thorm Mausoleum",
+          "description": "I recommend to finish exploring the whole Reithwin town and the Moonrise towers first.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2174&post=true&mini=true"
+        }
+      ]
+    },
+    {
+      "id": "group-11",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Last Light Inn",
+        "House of Healing"
+      ],
+      "title": "House of Healing",
+      "items": [
+        {
+          "id": "speak-with-sister-lidwin-marked-hez",
+          "name": "Speak With Sister Lidwin",
+          "description": "She might know something about Ar abella's parents and she is also a trader.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2077&post=true&mini=true"
+        },
+        {
+          "id": "speak-with-sister-sinda-marked-tab",
+          "name": "Speak With Sister Sinda",
+          "description": "You can either speak with Sister Sinda or proceed to the operation room.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2543&post=true&mini=true"
+        },
+        {
+          "id": "deal-with-malus-thorm-marked-ni3",
+          "name": "Deal With Malus Thorm",
+          "description": "You can loot a key that unlocks the surgical bed and Surgeon's Subjugation Amulet .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2244&post=true&mini=true"
+        },
+        {
+          "id": "assassins-shortsword-marked-xl1",
+          "name": "Assassin's Shortsword",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Shortsword_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1838/assassins-shortsword",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1955&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": "1d6+1  Piercing",
+            "lore": "Quiet is the air around this sword, and quiet are the steps of the one who wields it.",
+            "stats": [
+              "Shortswords",
+              "Light",
+              "Finesse"
+            ],
+            "weight": "0.9",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Shortsword_A_1.png"
+          }
+        },
+        {
+          "id": "watchers-shield-marked-41f",
+          "name": "Watcher's Shield",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Shield_D_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2433/watchers-shield",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1956&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "To hold this shield is to be vigilant in duty, wary of danger, and mindful in crisis.",
+            "stats": [],
+            "weight": "2.7",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Shield_D_1.png"
+          }
+        },
+        {
+          "id": "shars-temptation-marked-nqs",
+          "name": "Shar's Temptation",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Amulet_Necklace_E_Pearl_C.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2430/shars-temptation",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1957&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "The inlaid jewels are so rich in colour, so deep in hue, you could lose yourself in them.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Amulet_Necklace_E_Pearl_C.png"
+          }
+        },
+        {
+          "id": "true-loves-embrace-marked-ovm",
+          "name": "True Love's Embrace",
+          "description": "Used together with True Love's Caress .",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_B_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2421/true-loves-embrace",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=3764&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "The scholar of love, Joel Firris Baldidims, writes that the next time he reads about a woman compared to a flower (or any feature of geography for that matter) he's going to start knocking on poets' doors with a sledgehammer.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Ring_B_1.png"
+          }
+        },
+        {
+          "id": "poisoners-gloves-marked-102",
+          "name": "Poisoner's Gloves",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Gloves_Leather_E.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2486/poisoners-gloves",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1959&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "While the leather is clean and well-maintained, a cold, acrid smell permeates these gloves.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Gloves_Leather_E.png"
+          }
+        },
+        {
+          "id": "surgeons-subjugation-amulet-marked-nd8",
+          "name": "Surgeon's Subjugation Amulet",
+          "description": "Can be used to improve party damage by paralyzing an enemy,",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Amulet_Necklace_A_Silver_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2434/surgeons-subjugation-amulet",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1961&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "A surgeon is only as reliable as her tools. And, indeed, as depraved.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Amulet_Necklace_A_Silver_A_1.png"
+          }
+        },
+        {
+          "id": "shadow-blade-ring-marked-a61",
+          "name": "Shadow Blade Ring",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_D_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2496/shadow-blade-ring",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1962&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "One of the relics of Deep Duerra's rebellious children. Long ago in a foreboding realm called Hammergrim, Deep Duerra, daughter of the dour god Laduguer, sired a great many heirs to her twisted corundum throne.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Ring_D_1.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-12",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Last Light Inn",
+        "House of Healing Morgue"
+      ],
+      "title": "House of Healing Morgue",
+      "items": [
+        {
+          "id": "defeat-the-shadow-cursed-being-encounter-marked-rgj",
+          "name": "Defeat the Shadow-Cursed Beings",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2243&post=true&mini=true"
+        },
+        {
+          "id": "open-the-hidden-room-marked-22r",
+          "name": "Gain Access to the Hidden Room",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2131&post=true&mini=true"
+        },
+        {
+          "id": "firzus-ring-of-trading-marked-24g",
+          "name": "Firzu's Ring of Trading",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_I.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/3159/firzus-ring-of-trading",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1963&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": null,
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/item-icons/Item_LOOT_GEN_Ring_I.png"
+          }
+        },
+        {
+          "id": "strange-tendril-amulet-marked-ufv",
+          "name": "Strange Tendril Amulet",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Amulet_Necklace_B_Gold_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2784/strange-tendril-amulet",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1965&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Eldritch sigils seem to coarse through the metalwork on this amulet.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Amulet_Necklace_B_Gold_A_1.png"
+          }
+        },
+        {
+          "id": "defeat-zombies-morgue-marked-nqk",
+          "name": "Defeat the Zombies (Lv. 6)",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2310&post=true&mini=true"
+        },
+        {
+          "id": "bided-time-marked-cjp",
+          "name": "Bided Time",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_CQCaster_GainArcaneChargeOnDamaged_Robe_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2502/bided-time",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1960&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "Revenge is best served. Hot or cold makes no difference.",
+            "stats": [],
+            "weight": "1.8",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_CQCaster_GainArcaneChargeOnDamaged_Robe_Magic.png"
+          }
+        },
+        {
+          "id": "eversight-ring-marked-m4h",
+          "name": "Eversight Ring",
+          "description": "Extremely useful ring if your party uses the Darkness ​ spell extensively.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_I_Silver_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2491/eversight-ring",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1964&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "0.05",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Ring_I_Silver_A_1.png"
+          }
+        },
+        {
+          "id": "gain-the-key-to-necrotic-laboratory-marked-j2k",
+          "name": "Acquire the Key to the Necrotic Laboratory and Explore the Laboratory",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2613&post=true&mini=true"
+        },
+        {
+          "id": "gain-access-to-the-ominous-crevice-marked-ymk",
+          "name": "Gain Access to the Ominous Crevice",
+          "description": "You will need to use Secret Lever to open the Metal Door or alternatively use lockpicking (requires DC 30).",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2173&post=true&mini=true"
+        },
+        {
+          "id": "hollow-armour-petrid-ooze-crevice-marked-1ke",
+          "name": "Defeat the Hollow Armour and Fetid Oooze",
+          "description": "Located at the bottom of the pit. You will be able to loot Protective Plate from the Hollow Armour .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2311&post=true&mini=true"
+        },
+        {
+          "id": "fleshmelter-cloak-marked-cv5",
+          "name": "Fleshmelter Cloak",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_Acid_AcidMeleeCounter_Cloak_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2489/fleshmelter-cloak",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1966&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "Droplets of foul acid drip from the tails of this cloak, as if from the stinger of a demonic scorpion.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_Acid_AcidMeleeCounter_Cloak_Magic.png"
+          }
+        },
+        {
+          "id": "protective-plate-marked-cld",
+          "name": "Protective Plate",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Plate.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/3164/protective-plate",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1967&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": null,
+            "stats": [],
+            "weight": "20",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/item-icons/Item_ARM_Plate.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-13",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Last Light Inn",
+        "Sharran Sanctuary"
+      ],
+      "title": "Sharran Sanctuary",
+      "items": [
+        {
+          "id": "defeat-harpers-and-shadows-marked-kcu",
+          "name": "Defeat the Shadow-Cursed Harpers.",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2240&post=true&mini=true"
+        },
+        {
+          "id": "dark-ladys-ritual-marked-58e",
+          "name": "Complete the Dark Lady's Ritual",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2127&post=true&mini=true"
+        },
+        {
+          "id": "ritual-dagger-of-shar-marked-b5f",
+          "name": "Ritual Dagger of Shar",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Dagger_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/4632/ritual-dagger-of-shar",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1973&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": "1d4+1  Piercing",
+            "lore": "The blade is sharp, and the handle firm. Yet death exudes from this dagger as it might from a fresh corpse.",
+            "stats": [
+              "Daggers",
+              "Light",
+              "Finesse"
+            ],
+            "weight": "0.45",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Dagger_A_1.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-14",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Reithwin Town"
+      ],
+      "title": "Reithwin Town",
+      "items": [
+        {
+          "id": "defeat-the-githyanki-ambush-marked-aip",
+          "name": "Defeat the Githyanki Ambush (Lv. 9)",
+          "description": "This enoucnter only occurs if you have been marked for death by Vlaakith.\n\nYou will be able to loot Hr'a'cknir Bracers and Psionic Ward Armour .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2242&post=true&mini=true"
+        },
+        {
+          "id": "hracknir-bracers-marked-rs6",
+          "name": "Hr'a'cknir Bracers",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_ARM_Bracers_Metal_Githyanki_B_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2608/hracknir-bracers",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1951&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Veryrare",
+            "damage": null,
+            "lore": "The planar silver cladding of these forearm bracers allows the wielder to channel the latent astral energies floating in the Weave.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_ARM_Bracers_Metal_Githyanki_B_Magic.png"
+          }
+        },
+        {
+          "id": "psionic-ward-armour-marked-wgj",
+          "name": "Psionic Ward Armour",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_Githborn_MagicEating_HalfPlate_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2530/psionic-ward-armour",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1950&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "After all that was done to them at the illithids' caprice, it is little wonder that the gith would construct armaments fit for combating their psionic might.",
+            "stats": [],
+            "weight": "12",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_Githborn_MagicEating_HalfPlate_Magic.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-15",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Reithwin Town",
+        "The Waning Moon"
+      ],
+      "title": "The Waning Moon",
+      "items": [
+        {
+          "id": "deal-with-thisobald-thorm-marked-7mi",
+          "name": "Deal With Thisobald Thorm",
+          "description": "Don't drink too much of his drinks.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2241&post=true&mini=true"
+        },
+        {
+          "id": "rat-bat-marked-os7",
+          "name": "Rat Bat",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Greatclub_A_0.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1841/rat-bat",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1975&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d8+1  Bludgeoning",
+            "lore": "A club with nails hammered through it. Classic.",
+            "stats": [
+              "Greatclubs",
+              "Two-Handed"
+            ],
+            "weight": "4.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Greatclub_A_0.png"
+          }
+        },
+        {
+          "id": "madelines-ledger-waning-moon-marked-ycy",
+          "name": "Get Madeline's Ledger",
+          "description": "Get Madeline's Ledger for Punish the Wicked quest.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2570&post=true&mini=true"
+        },
+        {
+          "id": "ichorous-gloves-marked-snh",
+          "name": "Ichorous Gloves",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Gloves_Leather_2.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2490/ichorous-gloves",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1974&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "These gloves smell like beef mince left to rot in a privy pail.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Gloves_Leather_2.png"
+          }
+        },
+        {
+          "id": "punch-drunk-bastard-marked-rl1",
+          "name": "Punch-Drunk Bastard",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Greatclub_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1565/punch-drunk-bastard",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1976&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d8+1  Bludgeoning",
+            "lore": "You see... *hic* the thing... the really, really important thing *hic*... about this item is *belches copiously*... oh sod it, it's a club. Enjoy.",
+            "stats": [
+              "Greatclubs",
+              "Two-Handed"
+            ],
+            "weight": "4.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Greatclub_A_1.png"
+          }
+        },
+        {
+          "id": "read-the-research-notes-waning-moon-marked-p6u",
+          "name": "Read the Research Notes",
+          "description": "You can gain a recipe for Thisobald's Brewed-Up Bellyglummer coating if you pass a DC 14 investigation check.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2593&post=true&mini=true"
+        }
+      ]
+    },
+    {
+      "id": "group-16",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Moonrise Towers"
+      ],
+      "title": "Moonrise Towers",
+      "items": [
+        {
+          "id": "get-2-tadpoles-from-docks-marked-bxu",
+          "name": "2x Mind Flayer Parasite Specimen",
+          "description": "There are 2 tadpoles in crates located in the docks of Moonrise Towers.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_Druid_Autopsy_Set_Tadpole.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/5906/mind-flayer-parasite-specimen",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2563&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Hanging suspended in murky slime, the living tadpole looks like some hideous cousin to the slug, only gorged and slick with remnants of brain fluid.",
+            "stats": [],
+            "weight": "0.2",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_Druid_Autopsy_Set_Tadpole.png"
+          }
+        },
+        {
+          "id": "enter-moonrise-towers-marked-rk6",
+          "name": "Enter the Moonrise Towers",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=4660&post=true&mini=true"
+        },
+        {
+          "id": "moonrise-towers-3-soul-coins-marked-56y",
+          "name": "3x Soul Coin",
+          "description": "If talking with Lann Tarv when Karlach is present you will have an option to listen to all his stories and you will obtain 3 soul coins.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_QUEST_GLO_SoulCoin.png",
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2075&post=true&mini=true"
+        },
+        {
+          "id": "speak-with-ketheric-thorm-moonrise-towers-marked-0wf",
+          "name": "Speak With Ketheric Thorm",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=4660&post=true&mini=true"
+        },
+        {
+          "id": "speak-with-araj-marked-pdc",
+          "name": "Speak With Araj Oblodra",
+          "description": "Contains few unique interactions:\n\n• Asks blood from your party.\n\n• Asks to see Astarion. If you agree to help her you will get Potion of Everlasting Vigour",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2076&post=true&mini=true"
+        },
+        {
+          "id": "linsella-parasite-tadpole-marked-wta",
+          "name": "Mind Flayer Parasite Specimen",
+          "description": "Linsella has a tadpole you either have to kill her or release the Knolls and they will do it for you.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_Druid_Autopsy_Set_Tadpole.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/5906/mind-flayer-parasite-specimen",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2562&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Hanging suspended in murky slime, the living tadpole looks like some hideous cousin to the slug, only gorged and slick with remnants of brain fluid.",
+            "stats": [],
+            "weight": "0.2",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_Druid_Autopsy_Set_Tadpole.png"
+          }
+        },
+        {
+          "id": "talk-with-zrell-marked-2gi",
+          "name": "Talk With Z'rell",
+          "description": "You can get access to Lann Tarv's secret stash and Balthazar's Room .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2258&post=true&mini=true"
+        },
+        {
+          "id": "get-orpheus-part-three-marked-fcz",
+          "name": "Obtain Orpheus, Prince of the Comet, Part Three: Resurrection",
+          "description": "Talk with Lae'zel about it.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2591&post=true&mini=true"
+        },
+        {
+          "id": "derivation-cloak-marked-aw1",
+          "name": "Derivation Cloak",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_Poison_InflictPoisonHealSelf_Cloak_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2485/derivation-cloak",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1978&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Based on a mad alchemist's experiments to derive youth from his victims by poisoning them, this cloak relies on a much more reliable arcane formula.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_Poison_InflictPoisonHealSelf_Cloak_Magic.png"
+          }
+        },
+        {
+          "id": "coldbrim-hat-marked-nbf",
+          "name": "Coldbrim Hat",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_ARM_Hat_Wizard_D_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2446/coldbrim-hat",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1979&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "Upturning the hat and gazing into it, you get this slightly vertiginous feeling, as if you were looking into a cold, abandoned well with no discernible end.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_ARM_Hat_Wizard_D_Magic.png"
+          }
+        },
+        {
+          "id": "read-necromancers-research-notes-marked-3es",
+          "name": "Read the Necromancer's Research Notes",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2569&post=true&mini=true"
+        },
+        {
+          "id": "shadow-lantern-marked-cru",
+          "name": "Shadow Lantern",
+          "description": "Can be crafted in Balthazar's Secret Room . Used to pass the darkness.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_QUEST_SCL_Moonlantern.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1849/shadow-lantern-uep9pv",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1985&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d4 Bludgeoning",
+            "lore": "Encased in a cocoon of shadow within the lantern, the mangled pixie lies like some deformed pupa, its mouth slack, and those same shadows crawling over its greying tongue.",
+            "stats": [
+              "Clubs",
+              "Versatile",
+              "Light"
+            ],
+            "weight": "0.9",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_QUEST_SCL_Moonlantern.png"
+          }
+        },
+        {
+          "id": "talk-to-squire-marked-es0",
+          "name": "Talk to Squire",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2389&post=true&mini=true"
+        },
+        {
+          "id": "cloak-of-elemental-absorption-marked-r9z",
+          "name": "Cloak of Elemental Absorption",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_ElementalGish_AbsorbElements_Cloak_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2455/cloak-of-elemental-absorption",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1980&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "A favourite among fleet-footed gish, this cloak allows the wearer to wield a foe's elemental mastery against them.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_ElementalGish_AbsorbElements_Cloak_Magic.png"
+          }
+        },
+        {
+          "id": "search-daughters-room-marked-c9h",
+          "name": "Search Ketheric Thorm Daughter's Room",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2094&post=true&mini=true"
+        },
+        {
+          "id": "spineshudder-amulet-marked-9qi",
+          "name": "Spineshudder Amulet",
+          "description": "Great amulet for builds that use multi-hit spells like Eldritch Blast ​ and Scorching Ray .",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Amulet_Necklace_C_Silver_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2483/spineshudder-amulet",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1977&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "Quivers creep up your enemy's back - the slow, long-fingered hand of your magic.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Amulet_Necklace_C_Silver_A_1.png"
+          }
+        },
+        {
+          "id": "argument-solver-marked-r6i",
+          "name": "Argument Solver",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Greatclub_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1900/argument-solver",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1983&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": "1d8+1  Bludgeoning",
+            "lore": "Few things solve a disagreement faster than displaying a greatclub. And this one reeks, too.",
+            "stats": [
+              "Greatclubs",
+              "Two-Handed"
+            ],
+            "weight": "4.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Greatclub_A_1.png"
+          }
+        },
+        {
+          "id": "very-heavy-greataxe-marked-djr",
+          "name": "Very Heavy Greataxe",
+          "description": "If not acquired during Act 1 ( Very Heavy Greataxe )",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Greataxe_B_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1618/very-heavy-greataxe",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1984&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": "1d12+1  Slashing",
+            "lore": "It's really very heavy.",
+            "stats": [
+              "Greataxes",
+              "Two-Handed"
+            ],
+            "weight": "9",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Greataxe_B_1.png"
+          }
+        },
+        {
+          "id": "avoid-going-to-rooftop-tower-marked-kl1",
+          "name": "Avoid Going to the Moonrise Towers Rooftop",
+          "description": "Party should not go to the roof of the Moonrise Towers right now, because the encounter will be impossible to win.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2203&post=true&mini=true"
+        }
+      ]
+    },
+    {
+      "id": "group-17",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Moonrise Towers",
+        "Lann Tarv"
+      ],
+      "title": "Lann Tarv",
+      "items": [
+        {
+          "id": "halberd-of-vigilance-marked-l2u",
+          "name": "Halberd of Vigilance",
+          "description": "An excellent two-handed weapon with a strong damage rider.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Halberd_A_2.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1964/halberd-of-vigilance",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1986&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Veryrare",
+            "damage": "1d10+2  Slashing",
+            "lore": "A variant of this halberd's design was thrown out in the early stages of development by its forgemaster. This was because the halberd kept expressing itself. 'ALARM!' it would shriek in peril. 'POTENCY FILLS ME LIKE A SONG OF HOPE!' it roared in triumph.",
+            "stats": [
+              "Halberds",
+              "Two-Handed",
+              "Extra Reach"
+            ],
+            "weight": "2.7",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Halberd_A_2.png"
+          }
+        },
+        {
+          "id": "enraging-heart-garb-marked-emd",
+          "name": "Enraging Heart Garb",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Barbarian_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2733/enraging-heart-garb",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1987&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Created by a designer and an enchanter who were going through a messy divorce at the time. As such the armour is filled with passive-aggressive rage.",
+            "stats": [],
+            "weight": "1.8",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Barbarian_Magic.png"
+          }
+        },
+        {
+          "id": "gloves-of-the-duellist-marked-h87",
+          "name": "Gloves of The Duellist",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Gloves_Leather_F.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2676/gloves-of-the-duellist",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1988&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Ways of beginning a duel have varied over the years. Perhaps the most famous is the Bildumbacher Method, in which the instigator drips paint thinner onto the opponent's socks.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Gloves_Leather_F.png"
+          }
+        },
+        {
+          "id": "sentinel-shield-marked-xb8",
+          "name": "Sentinel Shield",
+          "description": "The +3 bonus is significant, ensuring that you will be one of the first to start the turn.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Shield_B_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2566/sentinel-shield",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1989&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Clever enchantments dance between the grooves of this shield, which emanates a magic of heightened awareness.",
+            "stats": [],
+            "weight": "2.7",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Shield_B_1.png"
+          }
+        },
+        {
+          "id": "fistbreaker-helm-marked-1lt",
+          "name": "Fistbreaker Helm",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_ARM_Headwear_Cloth_A_1_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2717/fistbreaker-helm",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1990&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "'If your foe rains down blows upon your head, turn not the other cheek, but let your pricking helm bleed the bastards dry.'",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_ARM_Headwear_Cloth_A_1_Magic.png"
+          }
+        },
+        {
+          "id": "bigboys-chew-toy-marked-awp",
+          "name": "Bigboy's Chew Toy",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Quarterstaff_B_0.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1861/bigboys-chew-toy",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1991&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d6+1  Bludgeoning",
+            "lore": "Often mistaken for a relic of the wizard Bigby's creation, this staff was, ironically, made as a bite stick for Bigby's dog, Bigboy.",
+            "stats": [
+              "Quarterstaffs",
+              "Versatile"
+            ],
+            "weight": "1.8",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Quarterstaff_B_0.png"
+          }
+        },
+        {
+          "id": "slicing-shortsword-marked-u2t",
+          "name": "Slicing Shortsword",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Shortsword_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1956/slicing-shortsword",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1992&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d6+1  Piercing",
+            "lore": "So sharp you can cut yourself just talking about it. For example, 'Saw this sword the other day, mate. Absolutely brilliant, it was. Why, I was told that just talking about it wouldowOWOW-BUGGER-BUGGER-BUGGER!'",
+            "stats": [
+              "Shortswords",
+              "Light",
+              "Finesse"
+            ],
+            "weight": "0.9",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Shortsword_A_1.png"
+          }
+        },
+        {
+          "id": "gauntlets-of-surging-accuracy-marked-n7u",
+          "name": "Gauntlets of Surging Accuracy",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Gloves_Scalemail_A.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2694/gauntlets-of-surging-accuracy",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1993&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Made from steel hammered thin, these gauntlets are a fine investment for any warrior.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Gloves_Scalemail_A.png"
+          }
+        },
+        {
+          "id": "dwarven-splintmail-marked-ill",
+          "name": "Dwarven Splintmail",
+          "description": "Best Heavy armor in Act 2.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Splint_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2008/dwarven-splintmail",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1994&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Skilled hands crafted this armour, reinforcing the metal plates while sacrificing none of the flexibility.",
+            "stats": [],
+            "weight": "19",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Splint_1.png"
+          }
+        },
+        {
+          "id": "render-of-mind-and-body-marked-xtt",
+          "name": "Render of Mind and Body",
+          "description": "One of the best offhand shortswords thanks to its good damage rider.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Shortsword_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1856/render-of-mind-and-body",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1995&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": "1d6+1  Piercing",
+            "lore": "The best offence is a struck cognisance.",
+            "stats": [
+              "Shortswords",
+              "Light",
+              "Finesse"
+            ],
+            "weight": "0.9",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Shortsword_A_1.png"
+          }
+        },
+        {
+          "id": "titanstring-bow-marked-u2v",
+          "name": "Titanstring Bow",
+          "description": "If not obtained in Act 1.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Longbow_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1862/titanstring-bow",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1996&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d8+1  Piercing",
+            "lore": "The commonly held belief that archers are rangey, thin-wristed people is completely false. It takes years of training to pull a bowstring all the way back to your cheekbone, and wrists like iron.",
+            "stats": [
+              "Longbows",
+              "18m",
+              "Two-Handed"
+            ],
+            "weight": "1.1",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Longbow_A_1.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-18",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Moonrise Towers",
+        "Roah Moonglow"
+      ],
+      "title": "Roah Moonglow",
+      "items": [
+        {
+          "id": "armour-of-devotion-marked-6dl",
+          "name": "Armour of Devotion",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_Paladin_RestoreChannelDivinity_Armor_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2898/armour-of-devotion",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1997&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "The soft hum of a fervent prayer reverberates throughout the armoured plates.",
+            "stats": [],
+            "weight": "20",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_Paladin_RestoreChannelDivinity_Armor_Magic.png"
+          }
+        },
+        {
+          "id": "drakethroat-glaive-marked-rao",
+          "name": "Drakethroat Glaive",
+          "description": "Extremely useful glaive, that you can use its special effects to buff other weapons.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Glaive_A_2.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1923/drakethroat-glaive",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1998&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d10+2  Slashing",
+            "lore": "Kereska, the draconic goddess of arcane knowledge, gifted this glaive to a dragonborn when facing off against a group of carbuncular spiders. How their arachnid legs curled and blackened before that night's dark business was done!",
+            "stats": [
+              "Glaives",
+              "Two-Handed",
+              "Extra Reach"
+            ],
+            "weight": "2.7",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Glaive_A_2.png"
+          }
+        },
+        {
+          "id": "gloves-of-crushing-marked-bl2",
+          "name": "Gloves of Crushing",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Gloves_Cloth_A.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2679/gloves-of-crushing",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1999&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Stitched into the fabric of these gloves are the words: Largest and Largesse, For The Discerning Murderer.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Gloves_Monk.png"
+          }
+        },
+        {
+          "id": "sharpened-snare-cuirass-marked-fsz",
+          "name": "Sharpened Snare Cuirass",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Hide_2.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2705/sharpened-snare-cuirass",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2000&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Veryrare",
+            "damage": null,
+            "lore": "This magnificent hide was harvested from a rare mythological creature of the Feywild, a cross between a unicorn and a stoat.",
+            "stats": [],
+            "weight": "5.4",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Hide_2.png"
+          }
+        },
+        {
+          "id": "neer-misser-marked-o95",
+          "name": "Ne'er Misser",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_HandCrossbow_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1949/neer-misser",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2001&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d6+1  Force",
+            "lore": "On the stock, the crafter of this crossbow etched in tiny print: 'Ifn yer gonna miss, why dontchyae stop being a wally, and hit instead!'",
+            "stats": [
+              "HandCrossbows",
+              "15m",
+              "Light"
+            ],
+            "weight": "0.9",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_HandCrossbow_A_1.png"
+          }
+        },
+        {
+          "id": "poisoners-ring-marked-p5j",
+          "name": "Poisoner's Ring",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_G_Gold_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2487/poisoners-ring",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2002&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "Strange, green fumes seep from the ring's emerald.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Ring_G_Gold_A_1.png"
+          }
+        },
+        {
+          "id": "ring-of-spiteful-thunder-marked-ihh",
+          "name": "Ring of Spiteful Thunder",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_D_Gold_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2481/ring-of-spiteful-thunder",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2003&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "When you slip this ring on your hand and flex your fingers, a boom of discontented thunder grumbles in the air around you.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Ring_D_Gold_A_1.png"
+          }
+        },
+        {
+          "id": "marksmanship-hat-marked-cqc",
+          "name": "Marksmanship Hat",
+          "description": "Excellent hat for Ranged martials that use bows. It helps to alleviate the Sharpshooter: All In ​ effect.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_ARM_Hat_Wizard_E.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2742/marksmanship-hat",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2004&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "Silvery wings spread over the stiff unyielding leather.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_ARM_Hat_Wizard_E.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-19",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Moonrise Towers",
+        "Araj Oblodra"
+      ],
+      "title": "Araj Oblodra",
+      "items": [
+        {
+          "id": "boots-of-arcane-bolstering-marked-z7o",
+          "name": "Boots of Arcane Bolstering",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_CQCaster_ArcaneChargeAfterDash_Boots_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2500/boots-of-arcane-bolstering",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2005&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Fizzling barbs of enchantment magic crackle from the laces of these boots.",
+            "stats": [],
+            "weight": "0.55",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_CQCaster_ArcaneChargeAfterDash_Boots_Magic.png"
+          }
+        },
+        {
+          "id": "risky-ring-marked-0kl",
+          "name": "Risky Ring",
+          "description": "This ring is one of the most highly sought items by most of the builds in the game. Gives a permanent Advantage , making your attacks hit with a higher chance.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_E_Gold_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2668/risky-ring",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2006&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Life is just a series of risks taken while blindfolded.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Ring_E_Gold_A_1.png"
+          }
+        },
+        {
+          "id": "circlet-of-hunting-marked-rdc",
+          "name": "Circlet of Hunting",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_CircletOfBlasting.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2664/circlet-of-hunting",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2007&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Veryrare",
+            "damage": null,
+            "lore": "Huntresses prowling in the least hospitable woods of Toril hold one rule as cardinal: kill quickly. This is not about suffering. It's about sound, and its necessary absence.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_CircletOfBlasting.png"
+          }
+        },
+        {
+          "id": "ring-of-free-action-marked-era",
+          "name": "Ring of Free Action",
+          "description": "Excellent ring for Monk or other melee builds that rely on close-range combat.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_MAG_PHB_OfFreeAction_Ring.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2659/ring-of-free-action",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2008&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "The heart of the gem seems to flow like liquid - yet it contains neither quicksilver nor mercury.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_MAG_PHB_OfFreeAction_Ring.png"
+          }
+        },
+        {
+          "id": "robe-of-exquisite-focus-marked-ja6",
+          "name": "Robe of Exquisite Focus",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_OfArcanicAssault_Robe_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2596/robe-of-exquisite-focus",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2009&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "This robe once belonged to one of the great wizard Tenser's lecturers. While in university, Tenser used to practise spells on this robe, sometimes resulting in wonderful arcane discovery.",
+            "stats": [],
+            "weight": "1.8",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_OfArcanicAssault_Robe_Magic.png"
+          }
+        },
+        {
+          "id": "thunderskin-cloak-marked-hil",
+          "name": "Thunderskin Cloak",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_Thunder_InflictDazeOnReverberatedCreature_Cloak_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2480/thunderskin-cloak",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2010&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "Through a gap in the long snarls of thread, you are sure you can glimpse a great black thunderhead swollen with purple lightning and spears of rain.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_Thunder_InflictDazeOnReverberatedCreature_Cloak_Magic.png"
+          }
+        },
+        {
+          "id": "hat-of-storm-scions-power-marked-t68",
+          "name": "Hat of Storm Scion's Power",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_ARM_Hat_Wizard_D_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2479/hat-of-storm-scions-power",
+          "mapUrl": null,
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "Two sigils glow white where the hat brushes your temples - something is being tapped into; something distant and fearsome.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_ARM_Hat_Wizard_D_Magic.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-20",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Moonrise Towers",
+        "Prison"
+      ],
+      "title": "Prison",
+      "items": [
+        {
+          "id": "minthara-moonrise-towers-marked-4m9",
+          "name": "Minthara",
+          "description": "If Minthara survived Act 1 here you can recruit her.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=3765&post=true&mini=true"
+        },
+        {
+          "id": "rescue-the-gnomes-marked-3zh",
+          "name": "Rescue Wulbren",
+          "description": "You can rescue gnomes and the tieflings if they survived Act 1.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2577&post=true&mini=true"
+        },
+        {
+          "id": "defeat-the-warden-marked-xqn",
+          "name": "Defeat the Warden",
+          "description": "You can loot the Spellcrux Amulet from her.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2532&post=true&mini=true"
+        },
+        {
+          "id": "spellcrux-amulet-marked-rq0",
+          "name": "Spellcrux Amulet",
+          "description": "This amulet can be worn only when you need its effect, allowing you to restore those expensive spell slots.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Amulet_Necklace_D_Gold_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2509/spellcrux-amulet",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2011&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Veryrare",
+            "damage": null,
+            "lore": "Some scholars have speculated that spells have a mind of their own, suggesting that the spells get bored between being cast and restored.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Amulet_Necklace_D_Gold_A_1.png"
+          }
+        },
+        {
+          "id": "wulbrens-hammer-marked-0fx",
+          "name": "Wulbren's Hammer",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_LightHammer_B_0.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/4630/wulbrens-hammer",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2013&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": "1d4+1  Bludgeoning",
+            "lore": "A skilful smith decorated the wooden handle with a fine golden filigree.",
+            "stats": [
+              "LightHammers",
+              "Light"
+            ],
+            "weight": "0.9",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_LightHammer_B_0.png"
+          }
+        },
+        {
+          "id": "browbeaten-circlet-marked-hqq",
+          "name": "Browbeaten Circlet",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_CQCaster_SpellDCBonusWhileThreatened_Circlet_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2503/browbeaten-circlet",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2012&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "A cornered animal will, on occasion, feel a rush of exhilarating energy, and an urge to fight. The same is true of many arcane practitioners, who do not take kindly to being menaced.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_CQCaster_SpellDCBonusWhileThreatened_Circlet_Magic.png"
+          }
+        },
+        {
+          "id": "after-exploring-moonrise-towers-marked-egy",
+          "name": "Continue to the Grand Mausoleum",
+          "description": "After you explored the Moonrise Towers and Reithwin Town proceed to the Grand Mausoleum .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2174&post=true&mini=true"
+        }
+      ]
+    },
+    {
+      "id": "group-21",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Grand Mausoleum"
+      ],
+      "title": "Grand Mausoleum",
+      "items": [
+        {
+          "id": "raphael-grand-mausoleum-marked-4hm",
+          "name": "Speak with Raphael",
+          "description": "Will start the quest Kill Raphael's Old Enemy .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2544&post=true&mini=true"
+        },
+        {
+          "id": "defeat-cursed-kuo-toa-marked-fs0",
+          "name": "Defeat the Cursed Kuo-Toa (Lv. 6-7)",
+          "description": "Before entering the mausoleum you can go defeat the Cursed Kuo-Toa. The Chief of cursed Kuo-Toa will drop the Lightning Jabber",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2245&post=true&mini=true"
+        },
+        {
+          "id": "lightning-jabber-marked-0ng",
+          "name": "Lightning Jabber",
+          "description": "Excellent weapon for Eldritch Knight Throwing Build , as you get a bonus damage rider and can wear a shield.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_Kuotoa_Javelin_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1894/lightning-jabber",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2016&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": "1d6+1  Piercing",
+            "lore": "A makeshift spear fashioned from a giant crab's claw and the charged imagination of kuo-toa fishfolk.",
+            "stats": [
+              "Spears",
+              "Versatile"
+            ],
+            "weight": "1.35",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_Kuotoa_Javelin_A_1.png"
+          }
+        },
+        {
+          "id": "vivacious-cloak-marked-jjz",
+          "name": "Vivacious Cloak",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_CQCaster_TempHPAfterCast_Cloak_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2504/vivacious-cloak",
+          "mapUrl": null,
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "The sheer mortal terror of the low-vitality spellcaster (who can be blown over by a wafted spoon) can be partially offset by cloaks like this one.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_CQCaster_TempHPAfterCast_Cloak_Magic.png"
+          }
+        },
+        {
+          "id": "solve-the-mausoleum-puzzle-marked-31b",
+          "name": "Solve the Puzzle",
+          "description": "Solution to the puzzle.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2354&post=true&mini=true"
+        }
+      ]
+    },
+    {
+      "id": "group-22",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Gauntlet of Shar"
+      ],
+      "title": "Gauntlet of Shar",
+      "items": [
+        {
+          "id": "enter-gauntlet-of-shar-marked-bpo",
+          "name": "Enter the Gauntlet of Shar",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2184&post=true&mini=true"
+        },
+        {
+          "id": "further-access-gauntlet-of-shar-marked-3nq",
+          "name": "Gain Further Access",
+          "description": "You can gain futher access either by gpoing trough the Cave Entrance or solving the puzzle .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": null
+        },
+        {
+          "id": "defeat-justiciar-encounter-entrance-marked-mn3",
+          "name": "Defeat Encounter (Lv. 7)",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2317&post=true&mini=true"
+        },
+        {
+          "id": "least-expected-marked-6df",
+          "name": "Least Expected",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Shortbow_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1874/least-expected",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2021&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d6+2  Piercing",
+            "lore": "Shortbows",
+            "stats": [
+              "Shortbows",
+              "18m",
+              "Two-Handed"
+            ],
+            "weight": "0.9",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Shortbow_A_1.png"
+          }
+        },
+        {
+          "id": "defeat-cloacker-marked-2n1",
+          "name": "Defeat Cloacker (Lv. 8)",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2312&post=true&mini=true"
+        },
+        {
+          "id": "defeat-encounter-umbral-tremors-marked-4pg",
+          "name": "Defeat Encounter (Lv. 7)",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2313&post=true&mini=true"
+        },
+        {
+          "id": "callous-glow-ring-marked-x0c",
+          "name": "Callous Glow Ring",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_E_Gold_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2463/callous-glow-ring",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2020&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "A grudging gleam emits from this ring - more an indictment of light than an endorsement.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Ring_E_Gold_A_1.png"
+          }
+        },
+        {
+          "id": "deal-with-batlhazaar-gauntlet-of-shar-marked-ww5",
+          "name": "Deal with Balthazaar",
+          "description": "If you decide to kill him here you can loot from him the Circle of Bones .\n\nYou can acquire the Summon Golem Bell if you ask aid from Balthazar.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=4892&post=true&mini=true"
+        },
+        {
+          "id": "circle-of-bones-marked-6pl",
+          "name": "Circle of Bones",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_Myrkulites_CircletOfMyrkul_Circlet_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2546/circle-of-bones",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2025&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "A coldness clings to this macabre circlet, like the chill of a grave.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_Myrkulites_CircletOfMyrkul_Circlet_Magic.png"
+          }
+        },
+        {
+          "id": "summon-golem-bell-1-marked-2gl",
+          "name": "Summon Golem Bell",
+          "description": "Functional only in the Gauntlet of Shar.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_CINE_LOOT_GEN_Necromancer_Bell_A.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/4655/summon-golem-bell",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=4892&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Undefined",
+            "damage": null,
+            "lore": null,
+            "stats": [],
+            "weight": null,
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_CINE_LOOT_GEN_Necromancer_Bell_A.png"
+          }
+        },
+        {
+          "id": "deal-with-yurgir-marked-15e",
+          "name": "Deal With Yurgir",
+          "description": "You can either follow Raphael's wishes or help Yurgir . But do note that Astarion can leave your camp if you side with Yurgir.\n\nIf you kill Yurgir you will be able to loot the Hellfire Hand Crossbow .\n\nEither way you choose to deal with Yurgir, do not foget to take the Umbral Gem .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=4726&post=true&mini=true"
+        },
+        {
+          "id": "boots-of-brilliance-marked-cbz",
+          "name": "Boots of Brilliance",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_MAG_Bard_RefreshBardicInspirationSlot_Shoes.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2893/boots-of-brilliance",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2017&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Tiny bells are sewn into the boots' cuffs. They jingle subtly with every step.",
+            "stats": [],
+            "weight": "0.55",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_MAG_Bard_RefreshBardicInspirationSlot_Shoes.png"
+          }
+        },
+        {
+          "id": "dark-justiciar-gauntlets-marked-ttz",
+          "name": "Dark Justiciar Gauntlets",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_UNI_SHA_JusticiarArmor_Gloves_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2437/dark-justiciar-gauntlets-fpbkm2",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2018&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "The grip of darkness is a fear felt by many. The grip of a Dark Justiciar's gauntlets is a sacred fear reserved for an unfortunate few.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_UNI_SHA_JusticiarArmor_Gloves_Magic.png"
+          }
+        },
+        {
+          "id": "hellfire-hand-crossbow-marked-yhi",
+          "name": "Hellfire Hand Crossbow",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_HandCrossbow_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1977/hellfire-hand-crossbow",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2019&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Veryrare",
+            "damage": "1d6+2  Piercing",
+            "lore": "Rigged to draw on the skin-peeling hellfire of Avernus by a resourceful devil, this crossbow's size is no indication of its deadly potential.",
+            "stats": [
+              "HandCrossbows",
+              "15m",
+              "Light"
+            ],
+            "weight": "0.9",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_HandCrossbow_A_1.png"
+          }
+        },
+        {
+          "id": "find-the-last-justiciar-marked-0t6",
+          "name": "Find the Last Justiciar Hidden in the Gauntlet of Shar",
+          "description": "To start the search you can read One Becomes Many .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=4843&post=true&mini=true"
+        },
+        {
+          "id": "justiciars-scimitar-marked-u6b",
+          "name": "Justiciar's Scimitar",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Sword_Shar_A.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1984/justiciars-scimitar",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2022&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Veryrare",
+            "damage": "1d6+2  Slashing",
+            "lore": "This light, curved blade is as unusual and unforgiving as the darkness it strikes from.",
+            "stats": [
+              "Light",
+              "Finesse"
+            ],
+            "weight": "1.35",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Sword_Shar_A.png"
+          }
+        },
+        {
+          "id": "justiciars-greatshield-marked-uno",
+          "name": "Justiciar's Greatshield",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Shield_D_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2767/justiciars-greatshield",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2023&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "It's never the shield that kills you - but hearing your frantic steel thudding uselessly against this reinforced oak in the darkness is a good sign the end is near.",
+            "stats": [],
+            "weight": "2.7",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Shield_D_1.png"
+          }
+        },
+        {
+          "id": "soft-step-trial-marked-912",
+          "name": "Complete the Soft-Step Trial",
+          "description": "You can get +5 approval from Shadowheart if you allow her to give her blood.\n\nCollect the Umbral Gem .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2584&post=true&mini=true"
+        },
+        {
+          "id": "self-same-trial-marked-xm3",
+          "name": "Complete the Self-Same Trial",
+          "description": "You can get +5 approval from Shadowheart if you allow her to give her blood.\n\nCollect the Umbral Gem .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2585&post=true&mini=true"
+        },
+        {
+          "id": "killers-sweetheart-marked-3f4",
+          "name": "Killer's Sweetheart",
+          "description": "Excellent ring for Paladin builds where critical damage can result in huge bonus damage.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_GEN_Ring_I_Gold_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2516/killers-sweetheart",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2024&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Veryrare",
+            "damage": null,
+            "lore": "Though the ring is highly polished, darkened slivers of blood still cling to small scrapes and corners.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_GEN_Ring_I_Gold_A_1.png"
+          }
+        },
+        {
+          "id": "complete-faith-leap-trial-marked-9oq",
+          "name": "Complete Faith-Leap Trial",
+          "description": "You can get +5 approval from Shadowheart if you allow her to give her blood.\n\nCollect the Umbral Gem .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2587&post=true&mini=true"
+        },
+        {
+          "id": "librarian-and-dark-justiciars-marked-3xp",
+          "name": "The Librarian & Dark Justiciars (Lv. 7)",
+          "description": "Important: Be careful not to destroy Teachings of Loss: The Nightsinger !",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2315&post=true&mini=true"
+        },
+        {
+          "id": "gain-access-to-the-secret-room-marked-ze8",
+          "name": "Gain Access to the Secret Room",
+          "description": "Place Teachings of Loss: The Nightsinger on the pedestal .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=4728&post=true&mini=true"
+        },
+        {
+          "id": "spear-of-night-marked-066",
+          "name": "Spear of Night",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Spear_A_0.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1847/spear-of-night",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2026&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d6+1  Piercing",
+            "lore": "There is an eager, annihilating darkness thrumming within this weapon - it begs to be used.",
+            "stats": [
+              "Spears",
+              "Versatile"
+            ],
+            "weight": "1.35",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Spear_A_0.png"
+          }
+        },
+        {
+          "id": "dark-justiciar-helmet-marked-znk",
+          "name": "Dark Justiciar Helmet",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Helmet_Metal_Dark_Justiciar_A_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2587/dark-justiciar-helmet",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2027&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Veryrare",
+            "damage": null,
+            "lore": "Adorned in a fanned coronet of speartip points, its mask fixed with stiff-lipped intent, this helmet evokes a frightful, almost alien aspect that gestures to Shar. For she is strange and terrible indeed.",
+            "stats": [],
+            "weight": "1",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Helmet_Metal_Dark_Justiciar_A_Magic.png"
+          }
+        },
+        {
+          "id": "dark-justiciar-half-plate-marked-5r7",
+          "name": "Dark Justiciar Half-Plate",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_MAG_DarkJusticiar_HalfPlate_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2731/dark-justiciar-half-plate-l5xnke",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2028&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Shar's aspect winds its way through the patterns and pauldrons of this half plate, and any light cast nearby seems to almost quiver away from it, afraid. For even the light knows that the clank of this armour is swiftly followed by a Dark Justiciar's silent blade.",
+            "stats": [],
+            "weight": "12",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_MAG_DarkJusticiar_HalfPlate_Magic.png"
+          }
+        },
+        {
+          "id": "proceed-to-verge-of-shadows-marked-o6k",
+          "name": "Proceed to the Verge of Shadows",
+          "description": "When you have all Umbral Gems you can proceed to the Traversal Gem . After you completed exploring the Gauntlet of Shar proceed into the Shadowfell .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2194&post=true&mini=true"
+        }
+      ]
+    },
+    {
+      "id": "group-23",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Shadowfell"
+      ],
+      "title": "Shadowfell",
+      "items": [
+        {
+          "id": "enter-shadowfell-gauntlet-of-shar-marked-elj",
+          "name": "Enter Shadowfell",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2193&post=true&mini=true"
+        },
+        {
+          "id": "dark-justiciar-helm-marked-hu2",
+          "name": "Dark Justiciar Helm",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Shar_Crown_B_Broken_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2851/dark-justiciar-helm",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=4730&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "Stamped with Shar's own sigil, this helm was worn by the Nightsinger's own crusaders. The darkness within seems deeper than night, somehow.",
+            "stats": [],
+            "weight": "1",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Shar_Crown_B_Broken_Magic.png"
+          }
+        },
+        {
+          "id": "shadowhearts-choice-shadowfell-marked-or3",
+          "name": "Shadowheart's Path",
+          "description": "Depending on which path Shadowheart chooses you will be able to obtain some powerful loot:\n\n• If Shadowheart follow's Shar's orders:\n\n• Shar's Spear of Evening\n\n• Dark Justiciar Half-Plate\n\n• Dark Justiciar Gauntlets\n\n• Dark Justiciar Boots\n\n• If Shadowheart does not follow the Shar's orders:\n\n• Moonlight Glaive\n\n• Selûne's Spear of Night (later in Act 2)",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": null
+        },
+        {
+          "id": "deal-with-balthazar-marked-79u",
+          "name": "Deal With Balthazar",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": null
+        },
+        {
+          "id": "decide-fate-of-nightsong-marked-cka",
+          "name": "Decide Fate of the Nighstong",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": null
+        },
+        {
+          "id": "moonlight-glaive-marked-9n1",
+          "name": "Moonlight Glaive",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Glaive_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1906/moonlight-glaive",
+          "mapUrl": null,
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "A gift from Dame Aylin and her radiant goddess, this weapon's contours hold a silver-white beauty akin to the nightly lantern that climbs the firmament each evening.",
+            "stats": [
+              "Glaives",
+              "Two-Handed",
+              "Extra Reach"
+            ],
+            "weight": "2.7",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Glaive_A_1.png"
+          }
+        },
+        {
+          "id": "shars-spear-of-evening-marked-4mr",
+          "name": "Shar's Spear of Evening",
+          "description": "One of the best two-handed weapons in the game. However, this requires a major evil decision, so be mindful of that.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_Quest_SCE_SeluniteSpear.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1564/shars-spear-of-evening",
+          "mapUrl": null,
+          "tooltip": {
+            "rarity": "Legendary",
+            "damage": "1d6+3  Piercing",
+            "lore": "When visiting mortals in dreams, Shar's hair would curl and twist about her head like strands of inky midnight. If it tickled her nose, the goddess was careful not to show it.",
+            "stats": [
+              "Spears",
+              "Versatile"
+            ],
+            "weight": "1.35",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_MAG_SHA_SeluneBlessing_Spear_GLOW.png"
+          }
+        },
+        {
+          "id": "selnes-spear-of-night-marked-5ol",
+          "name": "Selûne's Spear of Night",
+          "description": "A good choice alternative to Shar's Spear of Evening . The weapon is good, but you will be able to get a stronger replacement - Nyrulna , early in Act 3.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_Quest_SCE_SeluniteSpear.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1563/selunes-spear-of-night",
+          "mapUrl": null,
+          "tooltip": {
+            "rarity": "Legendary",
+            "damage": "1d6+3  Piercing",
+            "lore": "'One of the goddess Selûne's titles, Moonmaiden, has often been debated among the ecclesiastical. Common symbology certainly rejects the assumption of virginity. More to the point, 'maiden' itself carries some dusty connotations. How about Lunar Lady? Keeps the alliteration, too.' - Margaery Henderplum",
+            "stats": [
+              "Spears",
+              "Versatile"
+            ],
+            "weight": "1.35",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_MAG_SHA_SeluneBlessing_Spear_GLOW.png"
+          }
+        },
+        {
+          "id": "dark-justiciar-half-plate-marked-tma",
+          "name": "Dark Justiciar Half-Plate",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_ChainShirt_Justiciar.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2585/dark-justiciar-half-plate",
+          "mapUrl": null,
+          "tooltip": {
+            "rarity": "Veryrare",
+            "damage": null,
+            "lore": "Shar's aspect winds its way through the patterns and pauldrons of this half plate, and any light cast nearby seems to almost quiver away from it, afraid. For even the light knows that the clank of this armour is swiftly followed by a Dark Justiciar's silent blade.",
+            "stats": [],
+            "weight": "12",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_ChainShirt_Justiciar.png"
+          }
+        },
+        {
+          "id": "dark-justiciar-boots-marked-5n7",
+          "name": "Dark Justiciar Boots",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Boots_Metal_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2586/dark-justiciar-boots",
+          "mapUrl": null,
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Scratched in places, scorched in others, and worn thin at the heel, these boots bear the indelible marks of experience.",
+            "stats": [],
+            "weight": "2",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Boots_Metal_1.png"
+          }
+        },
+        {
+          "id": "dark-justiciar-gauntlets-marked-yds",
+          "name": "Dark Justiciar Gauntlets",
+          "description": "Excellent gloves with good damage rider and solid bonus spell that costs only bonus action.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Generated_UNI_SHA_JusticiarArmor_Gloves_Magic.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2435/dark-justiciar-gauntlets",
+          "mapUrl": null,
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "The grip of darkness is a fear felt by many. The grip of a Dark Justiciar's gauntlets is a sacred fear reserved for an unfortunate few.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Generated_UNI_SHA_JusticiarArmor_Gloves_Magic.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-24",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Siege of the Moonrise Towers"
+      ],
+      "title": "Siege of the Moonrise Towers",
+      "items": [
+        {
+          "id": "talk-with-isobel-after-shadowfell-marked-vti",
+          "name": "Talk With Isobel",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2555&post=true&mini=true"
+        },
+        {
+          "id": "siege-the-moonrise-towers-marked-12f",
+          "name": "Siege the Moonrise Towers",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=4660&post=true&mini=true"
+        },
+        {
+          "id": "absolutes-protector-marked-pnr",
+          "name": "Absolute's Protector",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Shield_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2693/absolutes-protector",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1981&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "The Absolute's power radiates from this shield, invisible waves of energy beckoning to the Branded.",
+            "stats": [],
+            "weight": "2.7",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Shield_A_1.png"
+          }
+        },
+        {
+          "id": "clear-the-prison-marked-178",
+          "name": "Clear the Prison",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=4716&post=true&mini=true"
+        },
+        {
+          "id": "kill-radija-siege-marked-waz",
+          "name": "Kill Radija",
+          "description": "You can loot Myrkulite Scourge from her.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2526&post=true&mini=true"
+        },
+        {
+          "id": "myrkulite-scourge-marked-f2x",
+          "name": "Myrkulite Scourge",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Flail_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1556/myrkulite-scourge",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=1982&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "A browning piece of brain sticks stubbornly to one of the spikes.",
+            "stats": [
+              "Flails"
+            ],
+            "weight": "0.9",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Flail_A_1.png"
+          }
+        },
+        {
+          "id": "face-ketheric-thorm-rooftop-marked-9fg",
+          "name": "Defeat Ketheric Thorm",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=4855&post=true&mini=true"
+        },
+        {
+          "id": "ring-of-exalted-marrow-marked-v0x",
+          "name": "Ring of Exalted Marrow",
+          "description": "Located in a Heavy Chest behind the altar.",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_MAG_Myrkulites_RingofMyrkul_Ring.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2547/ring-of-exalted-marrow",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2014&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Gazing through this ring, you find that there is no other side, only a small sucking blackness that defies explanation.",
+            "stats": [],
+            "weight": "0.05",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_MAG_Myrkulites_RingofMyrkul_Ring_GLOW.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-25",
+      "path": [
+        "Shadow-Cursed Lands",
+        "Mind Flayer Colony"
+      ],
+      "title": "Mind Flayer Colony",
+      "items": [
+        {
+          "id": "enter-mind-flayer-colony-marked-068",
+          "name": "Enter the Mind Flayer Colony",
+          "description": "There are multiple ways you can enter, depending on choices you made.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=4734&post=true&mini=true"
+        },
+        {
+          "id": "hook-horrors-mind-flayer-colony-1-marked-28x",
+          "name": "Defeat Hook Horrors (Lv. 4)",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2221&post=true&mini=true"
+        },
+        {
+          "id": "zealot-krizt-tadpole-marked-1wz",
+          "name": "Zealot Krizt Illithid Tadpole",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_Druid_Autopsy_Set_Tadpole.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/5906/mind-flayer-parasite-specimen",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2560&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Hanging suspended in murky slime, the living tadpole looks like some hideous cousin to the slug, only gorged and slick with remnants of brain fluid.",
+            "stats": [],
+            "weight": "0.2",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_Druid_Autopsy_Set_Tadpole.png"
+          }
+        },
+        {
+          "id": "free-us-mind-flayer-colony-marked-3ps",
+          "name": "Free Us",
+          "description": "If Us survived in Nautiloid he can be found trapped here. If you free him you will get item called Summon Us .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2521&post=true&mini=true"
+        },
+        {
+          "id": "butchered-mind-1-marked-re6",
+          "name": "Butchered Mind",
+          "description": "Usable in Mind-Archive Interface and Slack-Skinned Head .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=5892&post=true&mini=true"
+        },
+        {
+          "id": "defeat-undead-mind-flayer-colony-1-marked-3fh",
+          "name": "Defeat the Undead (Lv. 3-7)",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2222&post=true&mini=true"
+        },
+        {
+          "id": "willing-mind-1-marked-esa",
+          "name": "Willing Mind",
+          "description": "Usable in Mind-Archive Interface and Slack-Skinned Head .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=5886&post=true&mini=true"
+        },
+        {
+          "id": "true-mind-1-marked-fnk",
+          "name": "True Mind",
+          "description": "Usable in Mind-Archive Interface and Slack-Skinned Head .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=5891&post=true&mini=true"
+        },
+        {
+          "id": "use-mind-archive-interface-marked-6f5",
+          "name": "Use the Mind-Archive Interface",
+          "description": "You can use brains that you found on Nautiloid or in the Mind Flayer Colony :\n\n• Nautiloid\n\n• Slave Mind\n\n• Dark Mind\n\n• Mind Flayer Colony:\n\n• Willing Mind\n\n• True Mind\n\n• Waking Mind\n\n• Fresh Mind\n\n• Closed Mind\n\n• Butchered Mind",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=5856&post=true&mini=true"
+        },
+        {
+          "id": "solve-the-mind-puzzle-marked-5tb",
+          "name": "Solve the Mind Puzzle",
+          "description": "-",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2092&post=true&mini=true"
+        },
+        {
+          "id": "waking-mind-1-marked-k90",
+          "name": "Waking Mind",
+          "description": "Important : you can sacrifie the mind at the Mind-Archive Interface and Slack-Skinned Head to get a permenant advantege on Intelligence Saving Throws.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=5888&post=true&mini=true"
+        },
+        {
+          "id": "blade-of-oppressed-souls-marked-fbd",
+          "name": "Blade of Oppressed Souls",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Longsword_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1871/blade-of-oppressed-souls",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2032&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d8+1  Slashing",
+            "lore": "Fragments of dead souls are imprisoned in the steel. Angry, powerful, hopeful, or scared - all of them rose up against their illithid masters, and all of them fell to this blade. Now, they are trapped forever, forced to aid their oppressors.",
+            "stats": [
+              "Longswords",
+              "Versatile"
+            ],
+            "weight": "1.35",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Longsword_A_1.png"
+          }
+        },
+        {
+          "id": "braindrain-gloves-marked-wyc",
+          "name": "Braindrain Gloves",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Gloves_Leather_H.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2520/braindrain-gloves",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2033&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "Somewhere deep in the spongy grey matter and little jiggly bits that comprise the brain, the memory of the slimy tadpole slithering over your eyeball lingers...",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Gloves_Leather_H.png"
+          }
+        },
+        {
+          "id": "circlet-of-mental-anguish-marked-gtc",
+          "name": "Circlet of Mental Anguish",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Circlet.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2535/circlet-of-mental-anguish",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2034&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Fell magic has seeped into this circlet, rejoicing at the slightest touch of despair.",
+            "stats": [],
+            "weight": "0.5",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Circlet.png"
+          }
+        },
+        {
+          "id": "decide-fate-of-zevlor-marked-tox",
+          "name": "Decide the Fate of Zevlor and Others",
+          "description": "If you decide to release them you will have to defeat Mind Flayers with an Intellect Devourer.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2223&post=true&mini=true"
+        },
+        {
+          "id": "decide-fate-of-mizora-marked-96o",
+          "name": "Decide Fate of Mizora",
+          "description": "If you want to acquire the Infernal Rapier Wyll has to be with you in the party.",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2523&post=true&mini=true"
+        },
+        {
+          "id": "infernal-rapier-marked-iyb",
+          "name": "Infernal Rapier",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ORI_Wyll_Infernal_Rapier.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1969/infernal-rapier",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2035&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Veryrare",
+            "damage": "1d8+2  Piercing",
+            "lore": "Imagine the soul as a blade. A good one, carefully looked after. A bad one suited for rusting in the rain. Flame-chewed and narrow, this blade is Wyll's soul summarised in steel.",
+            "stats": [
+              "Rapiers",
+              "Finesse"
+            ],
+            "weight": "0.9",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ORI_Wyll_Infernal_Rapier.png"
+          }
+        },
+        {
+          "id": "illithid-tadpole-near-mizora-colony-marked-l0x",
+          "name": "Illithid Tadpole",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_LOOT_Druid_Autopsy_Set_Tadpole.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/5906/mind-flayer-parasite-specimen",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2561&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "Hanging suspended in murky slime, the living tadpole looks like some hideous cousin to the slug, only gorged and slick with remnants of brain fluid.",
+            "stats": [],
+            "weight": "0.2",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_LOOT_Druid_Autopsy_Set_Tadpole.png"
+          }
+        },
+        {
+          "id": "closed-mind-1-marked-aic",
+          "name": "Closed Mind",
+          "description": "Usable in Mind-Archive Interface and Slack-Skinned Head .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=5890&post=true&mini=true"
+        },
+        {
+          "id": "deal-with-mistress-of-souls-marked-4v4",
+          "name": "Deal With Mistress of Souls and Skull Lashers (Lv. 8)",
+          "description": "You can loot Myrkulite Scourge from Kressa Bonedaughter .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2224&post=true&mini=true"
+        },
+        {
+          "id": "myrkulite-scourge-marked-1pj",
+          "name": "Myrkulite Scourge",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_Flail_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1556/myrkulite-scourge",
+          "mapUrl": null,
+          "tooltip": {
+            "rarity": "Uncommon",
+            "damage": null,
+            "lore": "A browning piece of brain sticks stubbornly to one of the spikes.",
+            "stats": [
+              "Flails"
+            ],
+            "weight": "0.9",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_Flail_A_1.png"
+          }
+        },
+        {
+          "id": "fresh-mind-1-marked-7xx",
+          "name": "Fresh Mind",
+          "description": "Usable in Mind-Archive Interface and Slack-Skinned Head .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=5889&post=true&mini=true"
+        },
+        {
+          "id": "explore-mind-flayer-colony-before-proceeding-marked-mwg",
+          "name": "Explore the Mind Flayer Colony",
+          "description": "Explore the colony before proceeding to face Apostle of Myrkul .",
+          "imageUrl": null,
+          "itemUrl": null,
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2220&post=true&mini=true"
+        },
+        {
+          "id": "ketherics-shield-marked-po5",
+          "name": "Ketheric's Shield",
+          "description": "The best shield for casters",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_Drow_Shield_A_0_Absolute.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2764/ketherics-shield",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2036&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": null,
+            "lore": "In the theatre of dreams, Ketheric killed his wife every night. That wasn't how things happened... but always upon waking, he would glare into the dark, long-faced and solemn, and he would think: 'I keep you alive with my memories, beloved. I kill you with what I've become.'",
+            "stats": [],
+            "weight": "2.7",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_Drow_Shield_A_0_Absolute.png"
+          }
+        },
+        {
+          "id": "ketherics-warhammer-marked-hi9",
+          "name": "Ketheric's Warhammer",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_WPN_HUM_WarHammer_A_1.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/1983/ketherics-warhammer",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2037&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Rare",
+            "damage": "1d8+1  Bludgeoning",
+            "lore": "This hammer's weight is centred on enchanted obsidian at the base of the head. Some nights before bed, Ketheric would sneak a whey-faced glance at the hammer, and think about the stone, and wonder what unknown facet of his heart bore his weight.",
+            "stats": [
+              "Warhammers",
+              "Versatile"
+            ],
+            "weight": "2.7",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_WPN_HUM_WarHammer_A_1.png"
+          }
+        },
+        {
+          "id": "reapers-embrace-marked-ow4",
+          "name": "Reaper's Embrace",
+          "description": "-",
+          "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/icons/Item_ARM_Ketheric_Body_B.png",
+          "itemUrl": "https://gamestegy.com/bg3/wiki/2441/reapers-embrace",
+          "mapUrl": "https://gamestegy.com/bg3/maps/act-2-shadowcursed-lands?marker-id=2038&post=true&mini=true",
+          "tooltip": {
+            "rarity": "Veryrare",
+            "damage": null,
+            "lore": "Heavy steel bones and teeth enclose the armour's chest and neck like a grotesque exoskeleton that both swallows and protects the wearer.",
+            "stats": [],
+            "weight": "20",
+            "imageUrl": "https://cdn.gamestegy.com/baldurs-gate-3/tooltip-icons/Item_ARM_Ketheric_Body_B.png"
+          }
+        }
+      ]
+    }
+  ]
+}

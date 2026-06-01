@@ -4,17 +4,17 @@
 ## 0) Project brief
 
 ### Summary
-- Name: **BG3 Act 1 Checklist**
-- Description: static browser-based checklist for a Baldur's Gate 3 Act 1 playthrough.
+- Name: **BG3 Checklist**
+- Description: static browser-based checklist for a Baldur's Gate 3 playthrough.
 - Audience: players who want to track quests, items, and locations during a personal run.
 - Primary goal: keep the checklist fast, usable on desktop and mobile, and deployable as a static GitHub Pages site.
 
 ### Current scope
-- Act 1 checklist only. Acts 2 and 3 are visible as locked navigation placeholders.
+- Act 1, Act 2, and Act 3 checklists.
 - Search across checklist item names, descriptions, and group paths.
 - Completion progress, collapsed groups, and the "hide completed" preference persisted in the browser.
 - Desktop and mobile embedded maps, item details dialog, wiki links, and tooltip metadata.
-- Checklist data extracted from the Gamestegy Act 1 checklist and committed as generated JSON.
+- Checklist data extracted from the Gamestegy Act 1, Act 2, and Act 3 checklists and committed as generated JSON.
 
 ### Out of scope unless explicitly requested
 - Accounts, authentication, backend APIs, databases, cross-device sync, analytics, and infrastructure provisioning.
@@ -30,7 +30,7 @@
 - Icons: `lucide-react`.
 - Fonts: Geist, Geist Mono, DM Sans, and Roboto Slab through `next/font/google`.
 - State: React hooks plus browser `localStorage`; there is no server state layer.
-- Data: committed locale-specific JSON in `locales/en/checklist-data.json`; there is no API, ORM, or database.
+- Data: committed locale-specific JSON under `locales/en/`; there is no API, ORM, or database.
 - Internationalization: `next-intl` with ICU messages in `locales/<locale>/messages.json`.
 - Package manager: **npm only**. `package-lock.json` is the source of truth.
 - Deployment: static export to **GitHub Pages** through `.github/workflows/deploy-pages.yml`.
@@ -47,7 +47,7 @@ Do not introduce axios, React Query, zod, Prisma, auth providers, or a backend l
 - `features/checklist/` - checklist feature components, types, generated-data adapter, and persistence hooks.
 - `i18n/` - `next-intl` routing, request config, and message-key typing.
 - `locales/<locale>/messages.json` - localized UI messages.
-- `locales/<locale>/checklist-data.json` - generated and committed locale-specific checklist dataset.
+- `locales/<locale>/*checklist-data.json` - generated and committed locale-specific checklist datasets.
 - `lib/utils.ts` - shared `cn()` class utility.
 - `scripts/extract-checklist.mjs` - parses a locally downloaded source HTML file into checklist JSON.
 - `scripts/enrich-item-tooltips.mjs` - enriches item entries by fetching linked wiki pages.
@@ -65,11 +65,11 @@ Keep checklist-specific code in `features/checklist/`. Keep `components/ui/` lim
 - Preserve `output: "export"` compatibility: do not add runtime server dependencies without changing the deployment design explicitly.
 
 ### Checklist data
-- Treat `locales/<locale>/checklist-data.json` as generated content, not as a hand-maintained source file.
+- Treat `locales/<locale>/*checklist-data.json` as generated content, not as hand-maintained source files.
 - UI-facing data access goes through `features/checklist/data.ts`.
 - Shared item and group contracts live in `features/checklist/types.ts`.
 - If the generated JSON shape changes, update the extraction script, TypeScript interfaces, adapter, and affected UI together.
-- The dataset currently originates from `https://gamestegy.com/post/bg3/1633/act-1-checklist`.
+- The datasets currently originate from `https://gamestegy.com/post/bg3/1633/act-1-checklist`, `https://gamestegy.com/post/bg3/1639/act-2-checklist`, and `https://gamestegy.com/post/bg3/1641/act-3-checklist`.
 
 ### Internationalization
 - Keep user-facing UI copy in `locales/<locale>/messages.json` and use `next-intl` translations in feature components.
@@ -82,9 +82,9 @@ The hooks under `features/checklist/` own the local persistence contract:
 
 | State | Storage key |
 | --- | --- |
-| Completed items | `bg3-act-1-checklist-progress` |
-| Collapsed groups | `bg3-act-1-checklist-collapsed-groups` |
-| Hide completed | `bg3-act-1-checklist-hide-completed` |
+| Completed items | `bg3-<act>-checklist-progress` |
+| Collapsed groups | `bg3-<act>-checklist-collapsed-groups` |
+| Hide completed | `bg3-<act>-checklist-hide-completed` |
 
 - Keep persisted values backward-compatible where practical.
 - Validate restored item and group IDs against the current generated dataset.
@@ -125,6 +125,10 @@ Run extraction only when checklist source content needs to be refreshed:
 ```bash
 node scripts/extract-checklist.mjs /tmp/bg3-act1.html locales/en/checklist-data.json
 node scripts/enrich-item-tooltips.mjs locales/en/checklist-data.json
+node scripts/extract-checklist.mjs /tmp/bg3-act2.html locales/en/act-2-checklist-data.json https://gamestegy.com/post/bg3/1639/act-2-checklist
+node scripts/enrich-item-tooltips.mjs locales/en/act-2-checklist-data.json
+node scripts/extract-checklist.mjs /tmp/bg3-act3.html locales/en/act-3-checklist-data.json https://gamestegy.com/post/bg3/1641/act-3-checklist
+node scripts/enrich-item-tooltips.mjs locales/en/act-3-checklist-data.json
 ```
 
 - The first command requires a source HTML file downloaded separately.

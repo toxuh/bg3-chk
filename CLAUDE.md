@@ -5,7 +5,7 @@ This file is the Claude Code entry point. Read `AGENTS.md` before making changes
 
 ## Project snapshot
 
-- Static **Next.js 16.2.6** App Router site for a Baldur's Gate 3 Act 1 checklist.
+- Static **Next.js 16.2.6** App Router site for Baldur's Gate 3 Act 1, Act 2, and Act 3 checklists.
 - **React 19.2.4**, strict TypeScript, Tailwind CSS 4, shadcn/ui, `radix-ui`, and `lucide-react`.
 - Interactive feature code lives in `features/checklist/` and `components/checklist-app.tsx`.
 - Browser state is stored in `localStorage`; there is no backend, API layer, database, auth, or server-state library.
@@ -36,8 +36,10 @@ This file is the Claude Code entry point. Read `AGENTS.md` before making changes
 - Never force-push `main` or `master`.
 
 ### Generated data and network access
-- Treat `locales/<locale>/checklist-data.json` as generated content.
+- Treat `locales/<locale>/*checklist-data.json` as generated content.
 - Use `node scripts/extract-checklist.mjs /tmp/bg3-act1.html locales/en/checklist-data.json` for extraction from local HTML.
+- Use `node scripts/extract-checklist.mjs /tmp/bg3-act2.html locales/en/act-2-checklist-data.json https://gamestegy.com/post/bg3/1639/act-2-checklist` for Act 2 extraction.
+- Use `node scripts/extract-checklist.mjs /tmp/bg3-act3.html locales/en/act-3-checklist-data.json https://gamestegy.com/post/bg3/1641/act-3-checklist` for Act 3 extraction.
 - Ask the user immediately before running `node scripts/enrich-item-tooltips.mjs locales/en/checklist-data.json`; it fetches external wiki pages.
 - Review generated JSON diffs and validate with lint and build.
 

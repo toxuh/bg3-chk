@@ -6,8 +6,12 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
 import { Progress } from "@/components/ui/progress";
 import { ActNavigation } from "@/features/checklist/act-navigation";
+import { checklistActNumbers, type ChecklistAct } from "@/features/checklist/types";
 
 interface Props {
+  activeAct: ChecklistAct;
+  isSwitchingAct: boolean;
+  selectedAct: ChecklistAct;
   completedCount: number;
   progress: number;
   query: string;
@@ -15,10 +19,14 @@ interface Props {
   totalCount: number;
   onClearProgress: () => void;
   onQueryChange: (query: string) => void;
+  onSelectAct: (act: ChecklistAct) => void;
   onShowIncompleteOnlyChange: (showIncompleteOnly: boolean) => void;
 }
 
 export const ChecklistToolbar = ({
+  activeAct,
+  isSwitchingAct,
+  selectedAct,
   completedCount,
   progress,
   query,
@@ -26,6 +34,7 @@ export const ChecklistToolbar = ({
   totalCount,
   onClearProgress,
   onQueryChange,
+  onSelectAct,
   onShowIncompleteOnlyChange,
 }: Readonly<Props>) => {
   const t = useTranslations("Toolbar");
@@ -43,9 +52,15 @@ export const ChecklistToolbar = ({
             <h1 className="font-heading text-4xl font-bold tracking-tight text-stone-50 sm:text-5xl">
               {t("title")}
             </h1>
-            <p className="mt-2 text-lg text-stone-400">{t("subtitle")}</p>
+            <p className="mt-2 text-lg text-stone-400">
+              {t("subtitle", { act: checklistActNumbers[activeAct] })}
+            </p>
             <div className="mt-5">
-              <ActNavigation />
+              <ActNavigation
+                activeAct={selectedAct}
+                isSwitchingAct={isSwitchingAct}
+                onSelectAct={onSelectAct}
+              />
             </div>
           </div>
           <Button

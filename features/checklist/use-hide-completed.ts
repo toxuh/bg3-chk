@@ -1,10 +1,9 @@
 import { useSyncExternalStore } from "react";
 
-const STORAGE_KEY = "bg3-act-1-checklist-hide-completed";
+import type { ChecklistAct } from "@/features/checklist/types";
+
 const STORAGE_EVENT = "bg3-checklist-hide-completed-changed";
 const DEFAULT_VALUE = "false";
-
-const getSnapshot = () => localStorage.getItem(STORAGE_KEY) ?? DEFAULT_VALUE;
 
 const subscribe = (onStoreChange: () => void) => {
   window.addEventListener("storage", onStoreChange);
@@ -16,17 +15,23 @@ const subscribe = (onStoreChange: () => void) => {
   };
 };
 
-const saveHideCompleted = (hideCompleted: boolean) => {
-  localStorage.setItem(STORAGE_KEY, String(hideCompleted));
+const saveHideCompleted = (storageKey: string, hideCompleted: boolean) => {
+  localStorage.setItem(storageKey, String(hideCompleted));
   window.dispatchEvent(new Event(STORAGE_EVENT));
 };
 
-export const useHideCompleted = () => {
-  const savedValue = useSyncExternalStore(subscribe, getSnapshot, () => DEFAULT_VALUE);
+export const useHideCompleted = (act: ChecklistAct) => {
+  const storageKey = `bg3-${act}-checklist-hide-completed`;
+  const savedValue = useSyncExternalStore(
+    subscribe,
+    () => localStorage.getItem(storageKey) ?? DEFAULT_VALUE,
+    () => DEFAULT_VALUE,
+  );
 
   return {
-    clearHideCompleted: () => saveHideCompleted(false),
+    clearHideCompleted: () => saveHideCompleted(storageKey, false),
     hideCompleted: savedValue === "true",
-    setHideCompleted: saveHideCompleted,
+    setHideCompleted: (hideCompleted: boolean) =>
+      saveHideCompleted(storageKey, hideCompleted),
   };
 };

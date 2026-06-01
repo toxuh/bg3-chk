@@ -1,25 +1,22 @@
 import { useMemo, useSyncExternalStore } from "react";
 
-import { checklistItemIds } from "@/features/checklist/data";
+import type { ChecklistAct } from "@/features/checklist/types";
 
-const STORAGE_KEY = "bg3-act-1-checklist-progress";
 const STORAGE_EVENT = "bg3-checklist-progress-changed";
 const EMPTY_PROGRESS = "[]";
 
-const getSnapshot = () => localStorage.getItem(STORAGE_KEY) ?? EMPTY_PROGRESS;
-
-const parseProgress = (savedProgress: string) => {
+const parseProgress = (savedProgress: string, itemIds: ReadonlySet<string>) => {
   try {
-    const itemIds = JSON.parse(savedProgress);
+    const savedItemIds = JSON.parse(savedProgress);
 
-    if (!Array.isArray(itemIds)) {
+    if (!Array.isArray(savedItemIds)) {
       return new Set<string>();
     }
 
     return new Set(
-      itemIds.filter(
+      savedItemIds.filter(
         (itemId): itemId is string =>
-          typeof itemId === "string" && checklistItemIds.has(itemId),
+          typeof itemId === "string" && itemIds.has(itemId),
       ),
     );
   } catch {
@@ -37,14 +34,22 @@ const subscribe = (onStoreChange: () => void) => {
   };
 };
 
-const saveProgress = (completedItems: Set<string>) => {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify([...completedItems]));
+const saveProgress = (storageKey: string, completedItems: Set<string>) => {
+  localStorage.setItem(storageKey, JSON.stringify([...completedItems]));
   window.dispatchEvent(new Event(STORAGE_EVENT));
 };
 
-export const useChecklistProgress = () => {
-  const savedProgress = useSyncExternalStore(subscribe, getSnapshot, () => EMPTY_PROGRESS);
-  const completedItems = useMemo(() => parseProgress(savedProgress), [savedProgress]);
+export const useChecklistProgress = (act: ChecklistAct, itemIds: ReadonlySet<string>) => {
+  const storageKey = `bg3-${act}-checklist-progress`;
+  const savedProgress = useSyncExternalStore(
+    subscribe,
+    () => localStorage.getItem(storageKey) ?? EMPTY_PROGRESS,
+    () => EMPTY_PROGRESS,
+  );
+  const completedItems = useMemo(
+    () => parseProgress(savedProgress, itemIds),
+    [itemIds, savedProgress],
+  );
 
   const toggleItem = (itemId: string) => {
     const nextItems = new Set(completedItems);
@@ -55,10 +60,10 @@ export const useChecklistProgress = () => {
       nextItems.add(itemId);
     }
 
-    saveProgress(nextItems);
+    saveProgress(storageKey, nextItems);
   };
 
-  const clearProgress = () => saveProgress(new Set());
+  const clearProgress = () => saveProgress(storageKey, new Set());
 
   return {
     clearProgress,
