@@ -1,4 +1,5 @@
 import { Map } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 import { Checkbox } from "@/components/ui/checkbox";
 import { ChecklistItemHoverCard } from "@/features/checklist/checklist-item-hover-card";
@@ -20,7 +21,10 @@ export const ChecklistItemRow = ({
   onOpenDetails,
   onSelectMap,
   onToggleItem,
-}: Readonly<Props>) => (
+}: Readonly<Props>) => {
+  const t = useTranslations("Item");
+
+  return (
   <article
     className={cn(
       "group flex items-start gap-3 px-4 py-4 transition-colors sm:px-5",
@@ -33,7 +37,7 @@ export const ChecklistItemRow = ({
         className="size-5 border-stone-600 bg-stone-950 data-checked:border-amber-500 data-checked:bg-amber-600 data-checked:text-stone-950"
         onCheckedChange={() => onToggleItem(item.id)}
       />
-      <span className="sr-only">Mark {item.name} as found</span>
+      <span className="sr-only">{t("markAsFound", { itemName: item.name })}</span>
     </label>
 
     <ChecklistItemHoverCard item={item}>
@@ -64,7 +68,7 @@ export const ChecklistItemRow = ({
     {item.mapUrl && (
       <button
         type="button"
-        aria-label={`Show ${item.name} location on the map`}
+        aria-label={t("showLocation", { itemName: item.name })}
         className="mt-1 rounded-md p-1 text-stone-600 transition-colors hover:bg-stone-800 hover:text-amber-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500"
         onClick={() => onSelectMap(item.mapUrl ?? "")}
       >
@@ -72,4 +76,5 @@ export const ChecklistItemRow = ({
       </button>
     )}
   </article>
-);
+  );
+};

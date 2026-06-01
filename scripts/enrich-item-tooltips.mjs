@@ -1,7 +1,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 
-const inputPath = resolve(process.argv[2] ?? "lib/checklist-data.json");
+const inputPath = resolve(process.argv[2] ?? "locales/en/checklist-data.json");
 const checklist = JSON.parse(readFileSync(inputPath, "utf8"));
 const items = checklist.groups.flatMap((group) => group.items);
 const wikiItems = items.filter((item) => item.itemUrl);

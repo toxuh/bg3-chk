@@ -1,4 +1,5 @@
 import { ListChecks, RotateCcw, Search } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -26,7 +27,10 @@ export const ChecklistToolbar = ({
   onClearProgress,
   onQueryChange,
   onShowIncompleteOnlyChange,
-}: Readonly<Props>) => (
+}: Readonly<Props>) => {
+  const t = useTranslations("Toolbar");
+
+  return (
   <>
     <header className="border-b border-amber-950/70 bg-stone-950/95">
       <div className="mx-auto max-w-[1480px] px-4 py-8 sm:px-6">
@@ -34,12 +38,12 @@ export const ChecklistToolbar = ({
           <div>
             <div className="mb-3 flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.24em] text-amber-500">
               <ListChecks className="size-4" />
-              Personal playthrough tracker
+              {t("eyebrow")}
             </div>
             <h1 className="font-heading text-4xl font-bold tracking-tight text-stone-50 sm:text-5xl">
-              Baldur&apos;s Gate 3
+              {t("title")}
             </h1>
-            <p className="mt-2 text-lg text-stone-400">Act 1 complete checklist</p>
+            <p className="mt-2 text-lg text-stone-400">{t("subtitle")}</p>
             <div className="mt-5">
               <ActNavigation />
             </div>
@@ -51,7 +55,7 @@ export const ChecklistToolbar = ({
             onClick={onClearProgress}
           >
             <RotateCcw data-icon="inline-start" />
-            Clear progress
+            {t("clearProgress")}
           </Button>
         </div>
       </div>
@@ -69,11 +73,11 @@ export const ChecklistToolbar = ({
         <div className="flex flex-col gap-3 sm:flex-row">
           <label className="flex min-w-0 flex-1 items-center gap-2 rounded-lg border border-stone-800 bg-stone-900 px-3 text-stone-400 focus-within:border-amber-700 focus-within:ring-2 focus-within:ring-amber-900/60">
             <Search className="size-4 shrink-0" />
-            <span className="sr-only">Search checklist</span>
+            <span className="sr-only">{t("searchLabel")}</span>
             <Input
               type="search"
               value={query}
-              placeholder="Search items, quests, locations..."
+              placeholder={t("searchPlaceholder")}
               className="h-10 min-w-0 flex-1 rounded-none border-0 bg-transparent px-0 text-sm text-stone-100 shadow-none outline-none placeholder:text-stone-600 focus-visible:ring-0"
               onChange={(event) => onQueryChange(event.target.value)}
             />
@@ -84,10 +88,11 @@ export const ChecklistToolbar = ({
               className="border-stone-700 bg-stone-950 data-checked:border-amber-500 data-checked:bg-amber-600 data-checked:text-stone-950"
               onCheckedChange={(checked) => onShowIncompleteOnlyChange(checked === true)}
             />
-            Hide completed
+            {t("hideCompleted")}
           </label>
         </div>
       </div>
     </div>
   </>
-);
+  );
+};

@@ -1,0 +1,53 @@
+{
+  "Metadata": {
+    "title": "BG3 Act 1 Checklist",
+    "description": "A personal Baldur's Gate 3 Act 1 playthrough tracker."
+  },
+  "Checklist": {
+    "clearSavedStateConfirm": "Clear all saved checklist state?",
+    "noMatchingEntries": "No checklist entries match the current filters.",
+    "footer": "Checklist content extracted from <source>Gamestegy's Act 1 checklist</source>. Progress stays in this browser."
+  },
+  "Toolbar": {
+    "eyebrow": "Personal playthrough tracker",
+    "title": "Baldur's Gate 3",
+    "subtitle": "Act 1 complete checklist",
+    "clearProgress": "Clear progress",
+    "searchLabel": "Search checklist",
+    "searchPlaceholder": "Search items, quests, locations...",
+    "hideCompleted": "Hide completed"
+  },
+  "Navigation": {
+    "ariaLabel": "Checklist acts",
+    "plannedTitle": "Checklist will be added later",
+    "act1": "Act 1",
+    "act2": "Act 2",
+    "act3": "Act 3"
+  },
+  "Loading": {
+    "title": "Loading your checklist",
+    "description": "Restoring progress and section state..."
+  },
+  "Details": {
+    "eyebrow": "Checklist details",
+    "noAdditionalNotes": "No additional notes for this checklist item.",
+    "markedAsFound": "Marked as found",
+    "markAsFound": "Mark as found",
+    "hideMap": "Hide map",
+    "showMap": "Show map",
+    "openWiki": "Open wiki",
+    "close": "Close",
+    "mapTitle": "{itemName} map"
+  },
+  "Map": {
+    "title": "Interactive map",
+    "description": "Click any location marker to update",
+    "openInNewTab": "Open current map in a new tab",
+    "close": "Close map",
+    "iframeTitle": "Baldur's Gate 3 interactive map"
+  },
+  "Item": {
+    "markAsFound": "Mark {itemName} as found",
+    "showLocation": "Show {itemName} location on the map"
+  }
+}

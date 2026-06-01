@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Check, ExternalLink, Map } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -20,6 +21,7 @@ interface Props {
 }
 
 export const ChecklistDetailsDialog = ({ completed, item, onClose, onToggleItem }: Readonly<Props>) => {
+  const t = useTranslations("Details");
   const [showMap, setShowMap] = useState(false);
 
   useEffect(() => {
@@ -43,12 +45,12 @@ export const ChecklistDetailsDialog = ({ completed, item, onClose, onToggleItem 
 
   return (
     <Dialog open onOpenChange={(open) => !open && onClose()}>
-      <DialogContent className="max-h-[90vh] gap-0 overflow-y-auto rounded-xl border border-stone-700 bg-stone-900 p-0 text-stone-100 shadow-2xl sm:max-w-3xl">
+      <DialogContent closeLabel={t("close")} className="max-h-[90vh] gap-0 overflow-y-auto rounded-xl border border-stone-700 bg-stone-900 p-0 text-stone-100 shadow-2xl sm:max-w-3xl">
         <DialogHeader className="flex-row items-start gap-4 border-b border-stone-800 p-5 pr-16 text-left">
           {item.imageUrl && <ChecklistItemImage imageUrl={item.imageUrl} size="large" />}
           <div className="min-w-0 flex-1">
             <p className="mb-1 text-xs font-semibold uppercase tracking-[0.18em] text-amber-500">
-              Checklist details
+              {t("eyebrow")}
             </p>
             <DialogTitle className="font-heading text-2xl font-semibold text-white">
               {item.name}
@@ -58,7 +60,7 @@ export const ChecklistDetailsDialog = ({ completed, item, onClose, onToggleItem 
 
         <div className="space-y-5 p-5">
           <DialogDescription className="whitespace-pre-line text-sm leading-7 text-stone-300">
-            {item.description || "No additional notes for this checklist item."}
+            {item.description || t("noAdditionalNotes")}
           </DialogDescription>
 
           <div className="flex flex-wrap gap-2">
@@ -68,7 +70,7 @@ export const ChecklistDetailsDialog = ({ completed, item, onClose, onToggleItem 
               onClick={() => onToggleItem(item.id)}
             >
               <Check data-icon="inline-start" />
-              {completed ? "Marked as found" : "Mark as found"}
+              {completed ? t("markedAsFound") : t("markAsFound")}
             </Button>
             {item.mapUrl && (
               <Button
@@ -78,7 +80,7 @@ export const ChecklistDetailsDialog = ({ completed, item, onClose, onToggleItem 
                 onClick={() => setShowMap((currentValue) => !currentValue)}
               >
                 <Map data-icon="inline-start" />
-                {showMap ? "Hide map" : "Show map"}
+                {showMap ? t("hideMap") : t("showMap")}
               </Button>
             )}
             {item.itemUrl && (
@@ -89,7 +91,7 @@ export const ChecklistDetailsDialog = ({ completed, item, onClose, onToggleItem 
               >
                 <a href={item.itemUrl} target="_blank" rel="noreferrer">
                   <ExternalLink data-icon="inline-start" />
-                  Open wiki
+                  {t("openWiki")}
                 </a>
               </Button>
             )}
@@ -97,7 +99,7 @@ export const ChecklistDetailsDialog = ({ completed, item, onClose, onToggleItem 
 
           {showMap && item.mapUrl && (
             <div className="overflow-hidden rounded-lg border border-stone-700 bg-stone-950">
-              <iframe title={`${item.name} map`} src={item.mapUrl} className="h-[430px] w-full" loading="lazy" />
+              <iframe title={t("mapTitle", { itemName: item.name })} src={item.mapUrl} className="h-[430px] w-full" loading="lazy" />
             </div>
           )}
         </div>

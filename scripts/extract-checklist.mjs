@@ -3,7 +3,7 @@ import { resolve } from "node:path";
 
 const SOURCE_URL = "https://gamestegy.com/post/bg3/1633/act-1-checklist";
 const inputPath = resolve(process.argv[2] ?? "/tmp/bg3-act1.html");
-const outputPath = resolve(process.argv[3] ?? "lib/checklist-data.json");
+const outputPath = resolve(process.argv[3] ?? "locales/en/checklist-data.json");
 const html = readFileSync(inputPath, "utf8");
 const articleStart = html.indexOf('<div id="post-body-text"');
 const articleEnd = html.indexOf('<div class="reactions-panel"', articleStart);

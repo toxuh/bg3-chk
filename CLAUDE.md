@@ -9,7 +9,8 @@ This file is the Claude Code entry point. Read `AGENTS.md` before making changes
 - **React 19.2.4**, strict TypeScript, Tailwind CSS 4, shadcn/ui, `radix-ui`, and `lucide-react`.
 - Interactive feature code lives in `features/checklist/` and `components/checklist-app.tsx`.
 - Browser state is stored in `localStorage`; there is no backend, API layer, database, auth, or server-state library.
-- Generated checklist content lives in `lib/checklist-data.json`.
+- Localized UI messages and generated checklist content live under `locales/<locale>/`.
+- Internationalization uses `next-intl`; the unprefixed `/` route is English and future locales use static prefixes.
 - Production uses `output: "export"` and deploys `out/` to GitHub Pages through `.github/workflows/deploy-pages.yml`.
 - Use npm only. The available validation commands are `npm run lint` and `npm run build`.
 
@@ -35,9 +36,9 @@ This file is the Claude Code entry point. Read `AGENTS.md` before making changes
 - Never force-push `main` or `master`.
 
 ### Generated data and network access
-- Treat `lib/checklist-data.json` as generated content.
-- Use `node scripts/extract-checklist.mjs /tmp/bg3-act1.html lib/checklist-data.json` for extraction from local HTML.
-- Ask the user immediately before running `node scripts/enrich-item-tooltips.mjs lib/checklist-data.json`; it fetches external wiki pages.
+- Treat `locales/<locale>/checklist-data.json` as generated content.
+- Use `node scripts/extract-checklist.mjs /tmp/bg3-act1.html locales/en/checklist-data.json` for extraction from local HTML.
+- Ask the user immediately before running `node scripts/enrich-item-tooltips.mjs locales/en/checklist-data.json`; it fetches external wiki pages.
 - Review generated JSON diffs and validate with lint and build.
 
 ### Validation

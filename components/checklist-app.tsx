@@ -1,6 +1,7 @@
 "use client";
 
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useState } from "react";
+import { useLocale, useTranslations } from "next-intl";
 
 import { ChecklistDetailsDialog } from "@/features/checklist/checklist-details-dialog";
 import { ChecklistGroup } from "@/features/checklist/checklist-group";
@@ -8,10 +9,7 @@ import { ChecklistLoading } from "@/features/checklist/checklist-loading";
 import { ChecklistMapPanel, ChecklistMobileMap } from "@/features/checklist/checklist-map-panel";
 import { ChecklistToolbar } from "@/features/checklist/checklist-toolbar";
 import {
-  checklistGroups,
-  checklistGroupsById,
-  checklistItems,
-  checklistSourceUrl,
+  getChecklistData,
 } from "@/features/checklist/data";
 import type { ChecklistItem } from "@/features/checklist/types";
 import { useChecklistProgress } from "@/features/checklist/use-checklist-progress";
@@ -22,6 +20,14 @@ import { useHideCompleted } from "@/features/checklist/use-hide-completed";
 const DEFAULT_MAP_URL = "https://gamestegy.com/bg3/maps/act-1-wilderness?mini=true&post=true";
 
 export const ChecklistApp = () => {
+  const t = useTranslations("Checklist");
+  const locale = useLocale();
+  const localeData = getChecklistData(locale);
+  const {
+    checklistGroupsById,
+    checklistItems,
+    checklistSourceUrl,
+  } = localeData;
   const hasMounted = useHasMounted();
   const { clearProgress, completedItems, toggleItem } = useChecklistProgress();
   const { clearCollapsedGroups, collapsedGroups, toggleGroup } = useCollapsedGroups();
@@ -31,10 +37,10 @@ export const ChecklistApp = () => {
   const [activeMapUrl, setActiveMapUrl] = useState(DEFAULT_MAP_URL);
   const [showMobileMap, setShowMobileMap] = useState(false);
 
-  const filteredGroups = useMemo(() => {
+  const filteredGroups = (() => {
     const normalizedQuery = query.trim().toLocaleLowerCase();
 
-    return checklistGroups
+    return localeData.checklistGroups
       .map((group) => ({
         ...group,
         items: group.items.filter((item) => {
@@ -49,7 +55,7 @@ export const ChecklistApp = () => {
         }),
       }))
       .filter((group) => group.items.length > 0);
-  }, [completedItems, hideCompleted, query]);
+  })();
 
   const completedCount = completedItems.size;
   const progress = Math.round((completedCount / checklistItems.length) * 100);
@@ -60,7 +66,7 @@ export const ChecklistApp = () => {
     setShowMobileMap(true);
   };
   const clearAllState = () => {
-    if (!window.confirm("Clear all saved checklist state?")) {
+    if (!window.confirm(t("clearSavedStateConfirm"))) {
       return;
     }
 
@@ -93,7 +99,7 @@ export const ChecklistApp = () => {
       <div className="mx-auto max-w-[1480px] px-4 py-8 sm:px-6">
         {filteredGroups.length === 0 ? (
           <div className="rounded-xl border border-stone-800 bg-stone-900 p-8 text-center text-stone-400">
-            No checklist entries match the current filters.
+            {t("noMatchingEntries")}
           </div>
         ) : (
           <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_520px]">
@@ -124,16 +130,18 @@ export const ChecklistApp = () => {
         )}
 
         <footer className="py-10 text-center text-xs leading-5 text-stone-600">
-          Checklist content extracted from{" "}
-          <a
-            href={checklistSourceUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="text-stone-500 underline underline-offset-4 hover:text-amber-500"
-          >
-            Gamestegy&apos;s Act 1 checklist
-          </a>
-          . Progress stays in this browser.
+          {t.rich("footer", {
+            source: (chunks) => (
+              <a
+                href={checklistSourceUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="text-stone-500 underline underline-offset-4 hover:text-amber-500"
+              >
+                {chunks}
+              </a>
+            ),
+          })}
         </footer>
       </div>
 

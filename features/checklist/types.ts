@@ -19,7 +19,12 @@ export interface ChecklistItemTooltip {
 
 export interface ChecklistGroup {
   id: string;
-  path: string[];
+  path: Array<string | null>;
   title: string;
   items: ChecklistItem[];
+}
+
+export interface ChecklistDataset {
+  sourceUrl: string;
+  groups: ChecklistGroup[];
 }

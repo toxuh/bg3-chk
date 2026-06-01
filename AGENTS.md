@@ -30,7 +30,8 @@
 - Icons: `lucide-react`.
 - Fonts: Geist, Geist Mono, DM Sans, and Roboto Slab through `next/font/google`.
 - State: React hooks plus browser `localStorage`; there is no server state layer.
-- Data: committed JSON in `lib/checklist-data.json`; there is no API, ORM, or database.
+- Data: committed locale-specific JSON in `locales/en/checklist-data.json`; there is no API, ORM, or database.
+- Internationalization: `next-intl` with ICU messages in `locales/<locale>/messages.json`.
 - Package manager: **npm only**. `package-lock.json` is the source of truth.
 - Deployment: static export to **GitHub Pages** through `.github/workflows/deploy-pages.yml`.
 
@@ -38,12 +39,15 @@ Do not introduce axios, React Query, zod, Prisma, auth providers, or a backend l
 
 ## 2) Repository map
 
-- `app/layout.tsx` - metadata, fonts, and root document.
-- `app/page.tsx` - server component entry point.
+- `app/(default)/layout.tsx` and `app/(default)/page.tsx` - unprefixed default-locale route.
+- `app/[locale]/` - statically generated prefixed routes for additional locales.
+- `app/root-document.tsx` - shared fonts, root document, and `NextIntlClientProvider`.
 - `components/checklist-app.tsx` - top-level interactive checklist composition.
 - `components/ui/` - shadcn-generated reusable UI primitives.
 - `features/checklist/` - checklist feature components, types, generated-data adapter, and persistence hooks.
-- `lib/checklist-data.json` - generated and committed checklist dataset.
+- `i18n/` - `next-intl` routing, request config, and message-key typing.
+- `locales/<locale>/messages.json` - localized UI messages.
+- `locales/<locale>/checklist-data.json` - generated and committed locale-specific checklist dataset.
 - `lib/utils.ts` - shared `cn()` class utility.
 - `scripts/extract-checklist.mjs` - parses a locally downloaded source HTML file into checklist JSON.
 - `scripts/enrich-item-tooltips.mjs` - enriches item entries by fetching linked wiki pages.
@@ -55,17 +59,23 @@ Keep checklist-specific code in `features/checklist/`. Keep `components/ui/` lim
 ## 3) Architecture and data flow
 
 ### Rendering
-- `app/page.tsx` stays a small Server Component.
+- Route-level `page.tsx` files stay small Server Components.
 - `components/checklist-app.tsx` is the client boundary because the checklist is interactive and browser-persisted.
 - Push new client-only logic down to the smallest practical component or hook.
 - Preserve `output: "export"` compatibility: do not add runtime server dependencies without changing the deployment design explicitly.
 
 ### Checklist data
-- Treat `lib/checklist-data.json` as generated content, not as a hand-maintained source file.
+- Treat `locales/<locale>/checklist-data.json` as generated content, not as a hand-maintained source file.
 - UI-facing data access goes through `features/checklist/data.ts`.
 - Shared item and group contracts live in `features/checklist/types.ts`.
 - If the generated JSON shape changes, update the extraction script, TypeScript interfaces, adapter, and affected UI together.
 - The dataset currently originates from `https://gamestegy.com/post/bg3/1633/act-1-checklist`.
+
+### Internationalization
+- Keep user-facing UI copy in `locales/<locale>/messages.json` and use `next-intl` translations in feature components.
+- The unprefixed `/` route is the default locale. Additional locales are statically generated with locale prefixes.
+- Add each new locale to `i18n/routing.ts`, then add both `messages.json` and `checklist-data.json` under its locale directory.
+- Keep locale routing compatible with `output: "export"`: do not add middleware-dependent redirects for production behavior.
 
 ### Browser persistence
 The hooks under `features/checklist/` own the local persistence contract:
@@ -113,8 +123,8 @@ The hooks under `features/checklist/` own the local persistence contract:
 Run extraction only when checklist source content needs to be refreshed:
 
 ```bash
-node scripts/extract-checklist.mjs /tmp/bg3-act1.html lib/checklist-data.json
-node scripts/enrich-item-tooltips.mjs lib/checklist-data.json
+node scripts/extract-checklist.mjs /tmp/bg3-act1.html locales/en/checklist-data.json
+node scripts/enrich-item-tooltips.mjs locales/en/checklist-data.json
 ```
 
 - The first command requires a source HTML file downloaded separately.
