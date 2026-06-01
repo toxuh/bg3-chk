@@ -1,4 +1,5 @@
-import type { Metadata } from "next";
+import { type ReactNode } from "react";
+import { type Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { RootDocument } from "@/app/root-document";
@@ -21,7 +22,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: ReactNode;
 }>) {
   setRequestLocale(routing.defaultLocale);
 
